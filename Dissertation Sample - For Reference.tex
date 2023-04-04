@@ -1,0 +1,146 @@
+\documentclass[12pt, fullpage]{article}
+\usepackage{uhthesis2019}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{natbib}
+\newcolumntype{d}{S[input-symbols = ()]}
+\usepackage{lscape}
+\usepackage{longtable}
+\newcommand{\source}[1]{\caption*{Source: {#1}} }
+% *****************************************************************
+% Estout LaTeX wrapper
+% *****************************************************************
+
+%%Original code developed by Jörg Weber: see
+%% https://www.jwe.cc/2012/03/stata-latex-tables-estout/
+%% andwho
+%% https://www.jwe.cc/blog/
+
+
+\let\estinput=\input % define a new input command so that we can still flatten the document
+
+\newcommand{\estwide}[3]{
+        \vspace{.75ex}{
+            %\textsymbols% Note the added command here
+            \begin{tabular*}
+            {\textwidth}{@{\hskip\tabcolsep\extracolsep\fill}l*{#2}{#3}}
+            \toprule
+            \estinput{#1}
+            \bottomrule
+            \addlinespace[.75ex]
+            \end{tabular*}
+            }
+        }   
+
+\newcommand{\estauto}[3]{
+        \vspace{.75ex}{
+            %\textsymbols% Note the added command here
+            \begin{tabular}{l*{#2}{#3}}
+            \toprule
+            \estinput{#1}
+            \bottomrule
+            \addlinespace[.75ex]
+            \end{tabular}
+            }
+        }
+
+% Allow line breaks with \ in specialcells
+\newcommand{\specialcell}[2][c]{%
+    \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}
+}
+
+\newcommand{\sym}[1]{\rlap{#1}}% Thanks David Carlisle
+
+
+%%%%%%%%%%% End of wrapper %%%%%%%%%%%%%%%%%%%%%
+    
+%%%%%%%%%%% TiKz %%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, text width =5cm, draw=black, fill=blue!30]
+
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, text width =5cm, draw=black, fill=orange!30]
+
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\begin{document}
+
+\pagenumbering{roman}
+\title{Essays on Hispanic Discrimination and Hispanic Identity}
+\author{Hussain Hadah}
+\degree{Doctor of Philosophy}{dissertation}
+\department{Economics}
+\college{College of Liberal Arts and Social Sciences}
+    \chair{Chinhui Juhn}
+    \cochair{Vikram Maheshri}
+    \firstreader{Willa Friedman}
+    \secondreader{Yona Rubinstein}
+    \threereadersfalse
+    \fourreadersfalse
+    \fivereadersfalse
+    \submitdate{May 2023}
+    \figurelisttrue
+    %There are no tables in the Chapters - so, we can avoid creating a List of Tables
+    \tablelistfalse
+\makecoverpages
+
+\begin{dedication}
+\textit{Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.}
+
+\textit{Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.}
+
+\textit{But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.}
+
+\begin{flushright}
+Abraham Lincoln \\
+November 19, 1863
+\end{flushright}
+\end{dedication}
+
+\begin{acknowledgements}
+\singlespacing{
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi proin sed libero enim sed faucibus turpis in eu. Feugiat vivamus at augue eget arcu dictum. Sit amet dictum sit amet justo donec. Vitae nunc sed velit dignissim sodales ut eu sem integer. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Et sollicitudin ac orci phasellus egestas tellus. Maecenas pharetra convallis posuere morbi leo urna molestie. Erat nam at lectus urna duis convallis. Turpis egestas sed tempus urna.
+}
+\end{acknowledgements}
+
+\begin{abstract}
+    \doublespacing
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi proin sed libero enim sed faucibus turpis in eu. Feugiat vivamus at augue eget arcu dictum. Sit amet dictum sit amet justo donec. Vitae nunc sed velit dignissim sodales ut eu sem integer. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Et sollicitudin ac orci phasellus egestas tellus. Maecenas pharetra convallis posuere morbi leo urna molestie. Erat nam at lectus urna duis convallis. Turpis egestas sed tempus urna.
+    \cleardoublepage
+    \singlespacing
+\end{abstract}
+
+%Optional Copyright Page
+\copyrighttrue
+\makecontentspages
+
+\pagenumbering{arabic}
+
+\section[\bf \uppercase{Sample Introduction}]{Introduction}
+
+%\begin{thebibliography}{10}
+%\bibitem{gridftp}W. Allcock, J. Bester, J. Bresnahan, A. Chervenak, I. Foster, C. Kesselman, S. Meder, V. Nefedova, D. Quesnel, and S. Tuecke, "Data Management and Transfer in High-Performance Computational Grid Environments," Proceedings of the 9th International Conference on Grid Computing, 2010, Chicago, IL, USA, June 2010. \\
+%
+%\bibitem{gass}J. Bester, I. Foster, C. Kesselman, J. Tedesco, S. Tuecke, "GASS: A Data Movement and Access Service for Wide Area Computing Systems," Sixth Workshop on I/O in Parallel and Distributed Systems, May 5, 1999. \\
+%
+%\bibitem{apples1}F. Berman, R. Wolski, S. Figueira, J. Schopf, G. Shao, "Application-Level Scheduling on Distributed Heterogeneous Networks," Proceedings of Supercomputing, 1996.\\
+%
+%\bibitem{apples2}F. Berman and R. Wolski, "The AppLeS Project: A Status Report ", Proceedings of the 8th NEC Research Symposium, Berlin, Germany, May 1997. \\
+%\\
+%\end{thebibliography}
+
+\bibliography{Dissertation}
+\bibliographystyle{authoryear}
+
+
+\end{document}
+

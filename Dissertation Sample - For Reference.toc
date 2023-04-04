@@ -1,0 +1,5 @@
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {Dedication}}}}}{iii}{}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {Acknowledgments}}}}}{iv}{}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {Abstract}}}}}{v}{}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {List of Figures}}}}}{vii}{}%
+\contentsline {section}{\numberline {1}\bf \uppercase {Sample Introduction}}{1}{}%
