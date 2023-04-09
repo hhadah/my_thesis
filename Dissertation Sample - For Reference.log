@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  4 APR 2023 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  8 APR 2023 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,12 +244,137 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count282
 \@thisrulewidth=\dimen184
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen185
+\captionmargin@=\dimen186
+\captionwidth=\dimen187
+\caption@tempdima=\dimen188
+\caption@indent=\dimen189
+\caption@parindent=\dimen190
+\caption@hangindent=\dimen191
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+)
+\c@subfigure=\count285
+\c@subtable=\count286
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+\c@float@type=\count287
+\float@exts=\toks25
+\float@box=\box54
+\@floatcapt=\box55
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks26
+\flrow@foot=\insert252
+\FB@wd=\dimen192
+\FBo@wd=\dimen193
+\FBc@wd=\dimen194
+\FBo@ht=\skip83
+\FBc@ht=\skip84
+\FBf@ht=\skip85
+\FBo@max=\skip86
+\FBc@max=\skip87
+\FBf@max=\skip88
+\c@FBl@b=\count288
+\floatbox@depth=\count289
+\c@FRobj=\count290
+\c@FRsobj=\count291
+\Xhsize=\skip89
+\sXhsize=\skip90
+\Zhsize=\skip91
+\sZhsize=\skip92
+\flrow@rowbox=\box56
+\FR@Zunitlength=\dimen195
+\c@FBcnt=\count292
+\FPOScnt=\count293
+\LTleft=\skip93
+\LTright=\skip94
+\LTleft=\skip95
+\LTright=\skip96
+\flrow@types=\toks27
+)
+(/Users/hhadah/Library/texmf/tex/latex/multicol.sty
+Package: multicol 2004/02/14 v1.6e multicolumn formatting (FMi)
+\c@tracingmulticols=\count294
+\mult@box=\box57
+\multicol@leftmargin=\dimen196
+\c@unbalance=\count295
+\c@collectmore=\count296
+\doublecol@number=\count297
+\multicoltolerance=\count298
+\multicolpretolerance=\count299
+\full@width=\dimen197
+\page@free=\dimen198
+\premulticols=\dimen199
+\postmulticols=\dimen256
+\multicolsep=\skip97
+\multicolbaselineskip=\skip98
+\partial@page=\box58
+\last@line=\box59
+\mult@rightbox=\box60
+\mult@grightbox=\box61
+\mult@gfirstbox=\box62
+\mult@firstbox=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\c@columnbadness=\count300
+\c@finalcolumnbadness=\count301
+\last@try=\dimen257
+\multicolovershoot=\dimen258
+\multicolundershoot=\dimen259
+\mult@nat@firstbox=\box81
+\colbreak@box=\box82
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip99
+\multirow@cntb=\count302
+\multirow@dima=\skip100
+\bigstrutjot=\dimen260
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip101
+\bibsep=\skip102
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count303
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen185
-\l__siunitx_angle_marker_box=\box54
-\l__siunitx_angle_unit_box=\box55
-\l__siunitx_compound_count_int=\count283
+\l__siunitx_angle_tmp_dim=\dimen261
+\l__siunitx_angle_marker_box=\box83
+\l__siunitx_angle_unit_box=\box84
+\l__siunitx_compound_count_int=\count304
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
@@ -257,7 +382,7 @@ Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
+\etb@tempcnta=\count305
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -273,23 +398,23 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count285
-\l__siunitx_number_min_decimal_int=\count286
-\l__siunitx_number_min_integer_int=\count287
-\l__siunitx_number_round_precision_int=\count288
-\l__siunitx_number_group_minimum_int=\count289
-\l__siunitx_table_tmp_box=\box56
-\l__siunitx_table_tmp_dim=\dimen186
-\l__siunitx_table_column_width_dim=\dimen187
-\l__siunitx_table_integer_box=\box57
-\l__siunitx_table_decimal_box=\box58
-\l__siunitx_table_before_box=\box59
-\l__siunitx_table_after_box=\box60
-\l__siunitx_table_before_dim=\dimen188
-\l__siunitx_table_carry_dim=\dimen189
-\l__siunitx_unit_tmp_int=\count290
-\l__siunitx_unit_position_int=\count291
-\l__siunitx_unit_total_int=\count292
+\l__siunitx_number_exponent_fixed_int=\count306
+\l__siunitx_number_min_decimal_int=\count307
+\l__siunitx_number_min_integer_int=\count308
+\l__siunitx_number_round_precision_int=\count309
+\l__siunitx_number_group_minimum_int=\count310
+\l__siunitx_table_tmp_box=\box85
+\l__siunitx_table_tmp_dim=\dimen262
+\l__siunitx_table_column_width_dim=\dimen263
+\l__siunitx_table_integer_box=\box86
+\l__siunitx_table_decimal_box=\box87
+\l__siunitx_table_before_box=\box88
+\l__siunitx_table_after_box=\box89
+\l__siunitx_table_before_dim=\dimen264
+\l__siunitx_table_carry_dim=\dimen265
+\l__siunitx_unit_tmp_int=\count311
+\l__siunitx_unit_position_int=\count312
+\l__siunitx_unit_total_int=\count313
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -297,62 +422,86 @@ Package: expl3 2022-01-21 L3 programming layer (loader)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box61
+\l__color_backend_stack_int=\count314
+\l__pdf_internal_box=\box90
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen190
-\ar@mcellbox=\box62
-\extrarowheight=\dimen191
-\NC@list=\toks25
-\extratabsurround=\skip83
-\backup@length=\skip84
-\ar@cellbox=\box63
+\col@sep=\dimen266
+\ar@mcellbox=\box91
+\extrarowheight=\dimen267
+\NC@list=\toks28
+\extratabsurround=\skip103
+\backup@length=\skip104
+\ar@cellbox=\box92
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip85
-\bibsep=\skip86
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count294
-)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/threeparttablex/threeparttablex.s
+ty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box93
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip105
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen268
+\c@nlinenum=\count315
+\TeXr@lab=\toks29
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip87
-\LTright=\skip88
-\LTpre=\skip89
-\LTpost=\skip90
-\LTchunksize=\count295
-\LTcapwidth=\dimen192
-\LT@head=\box64
-\LT@firsthead=\box65
-\LT@foot=\box66
-\LT@lastfoot=\box67
-\LT@gbox=\box68
-\LT@cols=\count296
-\LT@rows=\count297
-\c@LT@tables=\count298
-\c@LT@chunks=\count299
-\LT@p@ftn=\toks26
+\LTleft=\skip106
+\LTright=\skip107
+\LTpre=\skip108
+\LTpost=\skip109
+\LTchunksize=\count316
+\LTcapwidth=\dimen269
+\LT@head=\box94
+\LT@firsthead=\box95
+\LT@foot=\box96
+\LT@lastfoot=\box97
+\LT@gbox=\box98
+\LT@cols=\count317
+\LT@rows=\count318
+\c@LT@tables=\count319
+\c@LT@chunks=\count320
+\LT@p@ftn=\toks30
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen270
+\TX@old@table=\dimen271
+\TX@old@col=\dimen272
+\TX@target=\dimen273
+\TX@delta=\dimen274
+\TX@cols=\count321
+\TX@ftn=\toks31
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen193
-\pgfutil@tempdimb=\dimen194
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen275
+\pgfutil@tempdimb=\dimen276
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box69
+\pgfutil@abb=\box99
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
@@ -364,33 +513,33 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen195
-\pgf@y=\dimen196
-\pgf@xa=\dimen197
-\pgf@ya=\dimen198
-\pgf@xb=\dimen199
-\pgf@yb=\dimen256
-\pgf@xc=\dimen257
-\pgf@yc=\dimen258
-\pgf@xd=\dimen259
-\pgf@yd=\dimen260
+\pgf@x=\dimen277
+\pgf@y=\dimen278
+\pgf@xa=\dimen279
+\pgf@ya=\dimen280
+\pgf@xb=\dimen281
+\pgf@yb=\dimen282
+\pgf@xc=\dimen283
+\pgf@yc=\dimen284
+\pgf@xd=\dimen285
+\pgf@yd=\dimen286
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count300
-\c@pgf@countb=\count301
-\c@pgf@countc=\count302
-\c@pgf@countd=\count303
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count304
+\c@pgf@counta=\count322
+\c@pgf@countb=\count323
+\c@pgf@countc=\count324
+\c@pgf@countd=\count325
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count326
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -408,8 +557,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count305
-\pgfsyssoftpath@bigbuffer@items=\count306
+\pgfsyssoftpath@smallbuffer@items=\count327
+\pgfsyssoftpath@bigbuffer@items=\count328
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -437,12 +586,12 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen261
-\pgfmath@count=\count307
-\pgfmath@box=\box70
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@dimen=\dimen287
+\pgfmath@count=\count329
+\pgfmath@box=\box100
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -463,57 +612,57 @@ code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count308
+\c@pgfmathroundto@lastzeros=\count330
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen262
-\pgf@picmaxx=\dimen263
-\pgf@picminy=\dimen264
-\pgf@picmaxy=\dimen265
-\pgf@pathminx=\dimen266
-\pgf@pathmaxx=\dimen267
-\pgf@pathminy=\dimen268
-\pgf@pathmaxy=\dimen269
-\pgf@xx=\dimen270
-\pgf@xy=\dimen271
-\pgf@yx=\dimen272
-\pgf@yy=\dimen273
-\pgf@zx=\dimen274
-\pgf@zy=\dimen275
+\pgf@picminx=\dimen288
+\pgf@picmaxx=\dimen289
+\pgf@picminy=\dimen290
+\pgf@picmaxy=\dimen291
+\pgf@pathminx=\dimen292
+\pgf@pathmaxx=\dimen293
+\pgf@pathminy=\dimen294
+\pgf@pathmaxy=\dimen295
+\pgf@xx=\dimen296
+\pgf@xy=\dimen297
+\pgf@yx=\dimen298
+\pgf@yy=\dimen299
+\pgf@zx=\dimen300
+\pgf@zy=\dimen301
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen276
-\pgf@path@lasty=\dimen277
+\pgf@path@lastx=\dimen302
+\pgf@path@lasty=\dimen303
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen278
-\pgf@shorten@start@additional=\dimen279
+\pgf@shorten@end@additional=\dimen304
+\pgf@shorten@start@additional=\dimen305
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box71
-\pgf@hbox=\box72
-\pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count309
+\pgfpic=\box101
+\pgf@hbox=\box102
+\pgf@layerbox@main=\box103
+\pgf@picture@serial@count=\count331
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen280
+\pgflinewidth=\dimen306
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen281
-\pgf@pt@y=\dimen282
-\pgf@pt@temp=\dimen283
+\pgf@pt@x=\dimen307
+\pgf@pt@y=\dimen308
+\pgf@pt@temp=\dimen309
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -530,14 +679,14 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen284
+\pgfarrowsep=\dimen310
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen285
-\pgf@sys@shading@range@num=\count310
-\pgf@shadingcount=\count311
+\pgf@max=\dimen311
+\pgf@sys@shading@range@num=\count332
+\pgf@shadingcount=\count333
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -546,7 +695,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box74
+\pgfexternal@startupbox=\box104
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -567,7 +716,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box105
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -576,8 +725,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen286
-\pgf@nodesepend=\dimen287
+\pgf@nodesepstart=\dimen312
+\pgf@nodesepend=\dimen313
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -592,10 +741,10 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen288
-\pgffor@skip=\dimen289
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+\pgffor@iter=\dimen314
+\pgffor@skip=\dimen315
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -604,34 +753,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count312
-\pgfplotmarksize=\dimen290
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen316
 )
-\tikz@lastx=\dimen291
-\tikz@lasty=\dimen292
-\tikz@lastxsaved=\dimen293
-\tikz@lastysaved=\dimen294
-\tikz@lastmovetox=\dimen295
-\tikz@lastmovetoy=\dimen296
-\tikzleveldistance=\dimen297
-\tikzsiblingdistance=\dimen298
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count313
-\tikznumberofchildren=\count314
-\tikznumberofcurrentchild=\count315
-\tikz@fig@count=\count316
+\tikz@lastx=\dimen317
+\tikz@lasty=\dimen318
+\tikz@lastxsaved=\dimen319
+\tikz@lastysaved=\dimen320
+\tikz@lastmovetox=\dimen321
+\tikz@lastmovetoy=\dimen322
+\tikzleveldistance=\dimen323
+\tikzsiblingdistance=\dimen324
+\tikz@figbox=\box106
+\tikz@figbox@bg=\box107
+\tikz@tempbox=\box108
+\tikz@tempbox@bg=\box109
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count317
-\pgfmatrixcurrentcolumn=\count318
-\pgf@matrix@numberofcolumns=\count319
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
 )
-\tikz@expandcount=\count320
+\tikz@expandcount=\count342
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -652,32 +801,46 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen299
+\arrowsize=\dimen325
 ))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 75.
+h' as default language. on input line 97.
 
 
 LaTeX Warning: Unused global option(s):
     [fullpage].
 
-(./Dissertation Sample - For Reference.aux)
+(./Dissertation Sample - For Reference.aux
+
+LaTeX Warning: Label `sec:intro' multiply defined.
+
+
+LaTeX Warning: Label `sec:data' multiply defined.
+
+
+LaTeX Warning: Label `sub:the_determinants_of_hispanic_identity' multiply defin
+ed.
+
+
+LaTeX Warning: Label `sec:results' multiply defined.
+
+)
 \openout1 = `"Dissertation Sample - For Reference.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -715,17 +878,17 @@ LaTeX Font Info:    ... okay on input line 75.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen300
-\scratchbox=\box80
-\nofMPsegments=\count322
-\nofMParguments=\count323
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen301
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count343
+\scratchdimen=\dimen326
+\scratchbox=\box110
+\nofMPsegments=\count344
+\nofMParguments=\count345
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count346
+\MPscratchDim=\dimen327
+\MPnumerator=\count347
+\makeMPintoPDFobject=\count348
+\everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -735,48 +898,496 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: Fixing longtable code of `floatrow' package.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+
+\flrow@LT@lasthead=\box111
+\flrow@LT@prelastfoot=\box112
+\c@FBLTpage=\count349
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 75.
+or `english'. on input line 97.
  [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
- [4] [5] (./Dissertation Sample - For Reference.toc)
+ [4] [5] [6]
+(./Dissertation Sample - For Reference.toc [7
+
+])
 \tf@toc=\write4
 \openout4 = `"Dissertation Sample - For Reference.toc"'.
 
-
-[6
-
-] (./Dissertation Sample - For Reference.lof)
+ [8]
+(./Dissertation Sample - For Reference.lof)
 \tf@lof=\write5
 \openout5 = `"Dissertation Sample - For Reference.lof"'.
 
- [7]
-No file "Dissertation Sample - For Reference".bbl.
-[1] (./Dissertation Sample - For Reference.aux) ) 
+ [9]
+(./Dissertation Sample - For Reference.lot
+Overfull \hbox (4.20546pt too wide) in paragraph at lines 5--5
+ [][] []\OT1/cmr/m/n/12 Relationship Be-tween Bias and Self-Reported His-panic 
+iden-tity Among Second- 
+ []
+
+
+Overfull \hbox (2.49298pt too wide) in paragraph at lines 20--20
+ [][] []\OT1/cmr/m/n/12 Relationship Be-tween Self-Reported His-panic Iden-tity
+ and Charles and Guryan 
+ []
+
+
+Overfull \hbox (1.51799pt too wide) in paragraph at lines 21--21
+ [][] []\OT1/cmr/m/n/12 Relationship Be-tween Self-Reported His-panic iden-tity
+ and Charles and Guryan 
+ []
+
+)
+\tf@lot=\write6
+\openout6 = `"Dissertation Sample - For Reference.lot"'.
+
+ [10] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[16] [17] [18] [19] [20] [21] [22] [23] [24] [25] (./tables/tab01-SumStat.tex)
+[26] [27] [28]
+<figure/diag.png, id=143, 674.52pt x 493.845pt>
+File: figure/diag.png Graphic file (type png)
+<use figure/diag.png>
+Package pdftex.def Info: figure/diag.png  used on input line 409.
+(pdftex.def)             Requested size: 469.76266pt x 256.06993pt.
+ [29 <./figure/diag.png>] (./tables/tab02-observations-by-gen.tex)
+<figure/Bias_twostates.png, id=149, 3011.25pt x 1204.5pt>
+File: figure/Bias_twostates.png Graphic file (type png)
+<use figure/Bias_twostates.png>
+Package pdftex.def Info: figure/Bias_twostates.png  used on input line 427.
+(pdftex.def)             Requested size: 380.49637pt x 152.19788pt.
+<figure/Bias_twostates-hisp.png, id=150, 3011.25pt x 1204.5pt>
+File: figure/Bias_twostates-hisp.png Graphic file (type png)
+<use figure/Bias_twostates-hisp.png>
+Package pdftex.def Info: figure/Bias_twostates-hisp.png  used on input line 433
+.
+(pdftex.def)             Requested size: 380.49637pt x 152.19788pt.
+ [30] [31 <./figure/Bias_twostates.png> <./figure/Bias_twostates-hisp.png>]
+<figure/2004skinmap.png, id=159, 578.16pt x 361.35pt>
+File: figure/2004skinmap.png Graphic file (type png)
+<use figure/2004skinmap.png>
+Package pdftex.def Info: figure/2004skinmap.png  used on input line 452.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+<figure/2006skinmap.png, id=160, 578.16pt x 361.35pt>
+File: figure/2006skinmap.png Graphic file (type png)
+<use figure/2006skinmap.png>
+Package pdftex.def Info: figure/2006skinmap.png  used on input line 460.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+<figure/2008skinmap.png, id=161, 578.16pt x 361.35pt>
+File: figure/2008skinmap.png Graphic file (type png)
+<use figure/2008skinmap.png>
+Package pdftex.def Info: figure/2008skinmap.png  used on input line 468.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+<figure/2010skinmap.png, id=162, 578.16pt x 361.35pt>
+File: figure/2010skinmap.png Graphic file (type png)
+<use figure/2010skinmap.png>
+Package pdftex.def Info: figure/2010skinmap.png  used on input line 476.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+<figure/2012skinmap.png, id=163, 578.16pt x 361.35pt>
+File: figure/2012skinmap.png Graphic file (type png)
+<use figure/2012skinmap.png>
+Package pdftex.def Info: figure/2012skinmap.png  used on input line 484.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+<figure/2014skinmap.png, id=164, 578.16pt x 361.35pt>
+File: figure/2014skinmap.png Graphic file (type png)
+<use figure/2014skinmap.png>
+Package pdftex.def Info: figure/2014skinmap.png  used on input line 492.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+<figure/2016skinmap.png, id=165, 578.16pt x 361.35pt>
+File: figure/2016skinmap.png Graphic file (type png)
+<use figure/2016skinmap.png>
+Package pdftex.def Info: figure/2016skinmap.png  used on input line 500.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+<figure/2018skinmap.png, id=166, 578.16pt x 361.35pt>
+File: figure/2018skinmap.png Graphic file (type png)
+<use figure/2018skinmap.png>
+Package pdftex.def Info: figure/2018skinmap.png  used on input line 509.
+(pdftex.def)             Requested size: 140.92792pt x 88.07663pt.
+
+[32 <./figure/2004skinmap.png> <./figure/2006skinmap.png> <./figure/2008skinmap
+.png> <./figure/2010skinmap.png> <./figure/2012skinmap.png> <./figure/2014skinm
+ap.png> <./figure/2016skinmap.png> <./figure/2018skinmap.png>]
+<figure/skinmap_all.png, id=170, 2409.0pt x 1505.625pt>
+File: figure/skinmap_all.png Graphic file (type png)
+<use figure/skinmap_all.png>
+Package pdftex.def Info: figure/skinmap_all.png  used on input line 525.
+(pdftex.def)             Requested size: 469.75499pt x 293.58421pt.
+ [33 <./figure/skinmap_all.png>] (./tables/tab46-Skin-Iat-cps-SumStat.tex) [34]
+ [35] [36]
+[37] [38]
+Overfull \hbox (1.70818pt too wide) in paragraph at lines 583--584
+\OT1/cmr/m/n/12 ence be-tween the child of ob-jec-tively Hispanic-Hispanic-Whit
+e-White grand-par-ents (HHWW)
+ []
+
+<figure/skin-iat-regression-all-gens.png, id=192, 3011.25pt x 1204.5pt>
+File: figure/skin-iat-regression-all-gens.png Graphic file (type png)
+<use figure/skin-iat-regression-all-gens.png>
+Package pdftex.def Info: figure/skin-iat-regression-all-gens.png  used on input
+ line 594.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-first-gen.png, id=193, 3011.25pt x 1204.5pt>
+File: figure/skin-iat-regression-first-gen.png Graphic file (type png)
+<use figure/skin-iat-regression-first-gen.png>
+Package pdftex.def Info: figure/skin-iat-regression-first-gen.png  used on inpu
+t line 601.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-second-gen.png, id=194, 3011.25pt x 1204.5pt>
+File: figure/skin-iat-regression-second-gen.png Graphic file (type png)
+<use figure/skin-iat-regression-second-gen.png>
+Package pdftex.def Info: figure/skin-iat-regression-second-gen.png  used on inp
+ut line 607.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-third-gen.png, id=195, 3011.25pt x 1204.5pt>
+File: figure/skin-iat-regression-third-gen.png Graphic file (type png)
+<use figure/skin-iat-regression-third-gen.png>
+Package pdftex.def Info: figure/skin-iat-regression-third-gen.png  used on inpu
+t line 613.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+[39]
+<figure/by-parents-regs-all.png, id=200, 3011.25pt x 1204.5pt>
+File: figure/by-parents-regs-all.png Graphic file (type png)
+<use figure/by-parents-regs-all.png>
+Package pdftex.def Info: figure/by-parents-regs-all.png  used on input line 628
+.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/by-parents-regs-hh.png, id=201, 3011.25pt x 1204.5pt>
+File: figure/by-parents-regs-hh.png Graphic file (type png)
+<use figure/by-parents-regs-hh.png>
+Package pdftex.def Info: figure/by-parents-regs-hh.png  used on input line 635.
+
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/by-parents-regs-hw.png, id=202, 3011.25pt x 1204.5pt>
+File: figure/by-parents-regs-hw.png Graphic file (type png)
+<use figure/by-parents-regs-hw.png>
+Package pdftex.def Info: figure/by-parents-regs-hw.png  used on input line 641.
+
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/by-parents-regs-wh.png, id=203, 3011.25pt x 1204.5pt>
+File: figure/by-parents-regs-wh.png Graphic file (type png)
+<use figure/by-parents-regs-wh.png>
+Package pdftex.def Info: figure/by-parents-regs-wh.png  used on input line 647.
+
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+ [40 <./figure/skin-iat-regression-all-gens.png> <./figure/skin-iat-regression-
+first-gen.png> <./figure/skin-iat-regression-second-gen.png> <./figure/skin-iat
+-regression-third-gen.png>] [41 <./figure/by-parents-regs-all.png> <./figure/by
+-parents-regs-hh.png> <./figure/by-parents-regs-hw.png> <./figure/by-parents-re
+gs-wh.png>] [42] [43] [44] (./tables/tab04-regression_tab_bygen_skin.tex)
+[45] [46] [47] [48] (./tables/tab05-iat_regression_tab_byparent_type.tex)
+[49]
+<figure/skin-iat-regression-interaction-bygen-plot-second.png, id=245, 3011.25p
+t x 1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-second.png Graphic file
+ (type png)
+<use figure/skin-iat-regression-interaction-bygen-plot-second.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-seco
+nd.png  used on input line 729.
+(pdftex.def)             Requested size: 469.75499pt x 187.89021pt.
+ [50] (./tables/tab45-iat_regression_tab_bygrandparent_type.tex) [51 <./figure/
+skin-iat-regression-interaction-bygen-plot-second.png>]
+<figure/skin-iat-regression-interaction-bygen-plot-WW.png, id=254, 3011.25pt x 
+1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-WW.png Graphic file (ty
+pe png)
+<use figure/skin-iat-regression-interaction-bygen-plot-WW.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-WW.p
+ng  used on input line 746.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-interaction-bygen-plot-HH.png, id=255, 3011.25pt x 
+1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-HH.png Graphic file (ty
+pe png)
+<use figure/skin-iat-regression-interaction-bygen-plot-HH.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-HH.p
+ng  used on input line 754.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-interaction-bygen-plot-HW.png, id=256, 3011.25pt x 
+1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-HW.png Graphic file (ty
+pe png)
+<use figure/skin-iat-regression-interaction-bygen-plot-HW.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-HW.p
+ng  used on input line 761.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-interaction-bygen-plot-WH.png, id=257, 3011.25pt x 
+1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-WH.png Graphic file (ty
+pe png)
+<use figure/skin-iat-regression-interaction-bygen-plot-WH.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-WH.p
+ng  used on input line 768.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+ [52] [53 <./figure/skin-iat-regression-interaction-bygen-plot-WW.png> <./figur
+e/skin-iat-regression-interaction-bygen-plot-HH.png> <./figure/skin-iat-regress
+ion-interaction-bygen-plot-HW.png> <./figure/skin-iat-regression-interaction-by
+gen-plot-WH.png>]
+[54]
+Overfull \hbox (16.41635pt too wide) in paragraph at lines 779--780
+[]\OT1/cmr/m/n/12 Among third-generation im-mi-grants with ob-jec-tively His-pa
+nic pa-ter-nal grandfather-Hispanic
+ []
+
+
+Overfull \hbox (3.94843pt too wide) in paragraph at lines 781--782
+[]\OT1/cmr/m/n/12 Among third-generation im-mi-grants with ob-jec-tively His-pa
+nic pa-ter-nal grandfather-White
+ []
+
+
+Overfull \hbox (3.94843pt too wide) in paragraph at lines 783--784
+[]\OT1/cmr/m/n/12 Among third-generation im-mi-grants with ob-jec-tively White 
+pa-ter-nal grandfather-Hispanic
+ []
+
+[55] [56] (./tables/tab40-iat-migration-tab.tex) [57] [58]
+(./tables/tab41a-marriage.tex) [59] [60] [61] (./tables/maineffect-proxy.tex)
+[62] [63] [64]
+<GraphNonWhites.png, id=303, 867.24pt x 578.16pt>
+File: GraphNonWhites.png Graphic file (type png)
+<use GraphNonWhites.png>
+Package pdftex.def Info: GraphNonWhites.png  used on input line 832.
+(pdftex.def)             Requested size: 469.75499pt x 313.17216pt.
+ [65] [66 <./GraphNonWhites.png>]
+<HispanicUSA.png, id=311, 867.24pt x 578.16pt>
+File: HispanicUSA.png Graphic file (type png)
+<use HispanicUSA.png>
+Package pdftex.def Info: HispanicUSA.png  used on input line 842.
+(pdftex.def)             Requested size: 469.75499pt x 313.17216pt.
+ [67 <./HispanicUSA.png>]
+<interracialovertime.png, id=316, 1330.9725pt x 887.315pt>
+File: interracialovertime.png Graphic file (type png)
+<use interracialovertime.png>
+Package pdftex.def Info: interracialovertime.png  used on input line 853.
+(pdftex.def)             Requested size: 469.75499pt x 313.16444pt.
+
+[68 <./interracialovertime.png>]
+<PirChart2.png, id=321, 1437.87187pt x 958.58125pt>
+File: PirChart2.png Graphic file (type png)
+<use PirChart2.png>
+Package pdftex.def Info: PirChart2.png  used on input line 863.
+(pdftex.def)             Requested size: 469.75499pt x 313.17342pt.
+ [69 <./PirChart2.png>] [70]
+<figure/skin-iat-regression-interaction-bygen-plot-one-hisp-grand.png, id=330, 
+3011.25pt x 1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-one-hisp-grand.png Grap
+hic file (type png)
+<use figure/skin-iat-regression-interaction-bygen-plot-one-hisp-grand.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-one-
+hisp-grand.png  used on input line 893.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-interaction-bygen-plot-two-hisp-grand.png, id=331, 
+3011.25pt x 1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-two-hisp-grand.png Grap
+hic file (type png)
+<use figure/skin-iat-regression-interaction-bygen-plot-two-hisp-grand.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-two-
+hisp-grand.png  used on input line 900.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+<figure/skin-iat-regression-interaction-bygen-plot-three-hisp-grand.png, id=332
+, 3011.25pt x 1204.5pt>
+File: figure/skin-iat-regression-interaction-bygen-plot-three-hisp-grand.png Gr
+aphic file (type png)
+<use figure/skin-iat-regression-interaction-bygen-plot-three-hisp-grand.png>
+Package pdftex.def Info: figure/skin-iat-regression-interaction-bygen-plot-thre
+e-hisp-grand.png  used on input line 906.
+(pdftex.def)             Requested size: 202.93095pt x 81.1624pt.
+ [71 <./figure/skin-iat-regression-interaction-bygen-plot-one-hisp-grand.png> <
+./figure/skin-iat-regression-interaction-bygen-plot-two-hisp-grand.png> <./figu
+re/skin-iat-regression-interaction-bygen-plot-three-hisp-grand.png>]
+<figure/scatter-plot-bias-hispanic-less2015.png, id=339, 3011.25pt x 1806.75pt>
+
+File: figure/scatter-plot-bias-hispanic-less2015.png Graphic file (type png)
+<use figure/scatter-plot-bias-hispanic-less2015.png>
+Package pdftex.def Info: figure/scatter-plot-bias-hispanic-less2015.png  used o
+n input line 923.
+(pdftex.def)             Requested size: 380.49637pt x 228.29681pt.
+<figure/scatter-plot-bias-hispanic-great2015.png, id=340, 3011.25pt x 1806.75pt
+>
+File: figure/scatter-plot-bias-hispanic-great2015.png Graphic file (type png)
+<use figure/scatter-plot-bias-hispanic-great2015.png>
+Package pdftex.def Info: figure/scatter-plot-bias-hispanic-great2015.png  used 
+on input line 930.
+(pdftex.def)             Requested size: 380.49637pt x 228.29681pt.
+ [72 <./figure/scatter-plot-bias-hispanic-less2015.png> <./figure/scatter-plot-
+bias-hispanic-great2015.png>]
+<figure/scatter-plot-bias-hh-hispanic-less2015-hh.png, id=346, 3011.25pt x 1806
+.75pt>
+File: figure/scatter-plot-bias-hh-hispanic-less2015-hh.png Graphic file (type p
+ng)
+<use figure/scatter-plot-bias-hh-hispanic-less2015-hh.png>
+Package pdftex.def Info: figure/scatter-plot-bias-hh-hispanic-less2015-hh.png  
+used on input line 946.
+(pdftex.def)             Requested size: 380.49637pt x 228.29681pt.
+<figure/scatter-plot-bias-hh-hispanic-great2015-hh.png, id=347, 3011.25pt x 180
+6.75pt>
+File: figure/scatter-plot-bias-hh-hispanic-great2015-hh.png Graphic file (type 
+png)
+<use figure/scatter-plot-bias-hh-hispanic-great2015-hh.png>
+Package pdftex.def Info: figure/scatter-plot-bias-hh-hispanic-great2015-hh.png 
+ used on input line 953.
+(pdftex.def)             Requested size: 380.49637pt x 228.29681pt.
+
+[73 <./figure/scatter-plot-bias-hh-hispanic-less2015-hh.png> <./figure/scatter-
+plot-bias-hh-hispanic-great2015-hh.png>]
+<figure/Hispanics_type.png, id=353, 722.7pt x 433.62pt>
+File: figure/Hispanics_type.png Graphic file (type png)
+<use figure/Hispanics_type.png>
+Package pdftex.def Info: figure/Hispanics_type.png  used on input line 965.
+(pdftex.def)             Requested size: 469.75499pt x 281.85628pt.
+<figure/Hispanics_all_Obj.png, id=354, 722.7pt x 289.08pt>
+File: figure/Hispanics_all_Obj.png Graphic file (type png)
+<use figure/Hispanics_all_Obj.png>
+Package pdftex.def Info: figure/Hispanics_all_Obj.png  used on input line 972.
+(pdftex.def)             Requested size: 469.75499pt x 187.90417pt.
+<figure/Hispanics_Obj.png, id=355, 722.7pt x 289.08pt>
+File: figure/Hispanics_Obj.png Graphic file (type png)
+<use figure/Hispanics_Obj.png>
+Package pdftex.def Info: figure/Hispanics_Obj.png  used on input line 979.
+(pdftex.def)             Requested size: 469.75499pt x 187.90417pt.
+ [74 <./figure/Hispanics_type.png (PNG copy)> <./figure/Hispanics_all_Obj.png>]
+ [75 <./figure/Hispanics_Obj.png (PNG copy)>]
+<figure/ImplicitExplicit_scatter.png, id=364, 3011.25pt x 1806.75pt>
+File: figure/ImplicitExplicit_scatter.png Graphic file (type png)
+<use figure/ImplicitExplicit_scatter.png>
+Package pdftex.def Info: figure/ImplicitExplicit_scatter.png  used on input lin
+e 990.
+(pdftex.def)             Requested size: 469.75499pt x 281.83533pt.
+ [76 <./figure/ImplicitExplicit_scatter.png>]
+<figure/ImplicitCloseBlk_scatter.png, id=369, 3011.25pt x 1806.75pt>
+File: figure/ImplicitCloseBlk_scatter.png Graphic file (type png)
+<use figure/ImplicitCloseBlk_scatter.png>
+Package pdftex.def Info: figure/ImplicitCloseBlk_scatter.png  used on input lin
+e 1001.
+(pdftex.def)             Requested size: 469.75499pt x 281.83533pt.
+ [77 <./figure/ImplicitCloseBlk_scatter.png>]
+<figure/ImplicitVoteBlk_scatter.png, id=374, 3011.25pt x 1806.75pt>
+File: figure/ImplicitVoteBlk_scatter.png Graphic file (type png)
+<use figure/ImplicitVoteBlk_scatter.png>
+Package pdftex.def Info: figure/ImplicitVoteBlk_scatter.png  used on input line
+ 1012.
+(pdftex.def)             Requested size: 469.75499pt x 281.83533pt.
+ [78 <./figure/ImplicitVoteBlk_scatter.png>]
+<figure/scatter-plot-bias-hh-nothispanic-less2015.png, id=379, 3011.25pt x 1806
+.75pt>
+File: figure/scatter-plot-bias-hh-nothispanic-less2015.png Graphic file (type p
+ng)
+<use figure/scatter-plot-bias-hh-nothispanic-less2015.png>
+Package pdftex.def Info: figure/scatter-plot-bias-hh-nothispanic-less2015.png  
+used on input line 1028.
+(pdftex.def)             Requested size: 380.49637pt x 228.29681pt.
+<figure/scatter-plot-bias-hh-nothispanic-great2015.png, id=380, 3011.25pt x 180
+6.75pt>
+File: figure/scatter-plot-bias-hh-nothispanic-great2015.png Graphic file (type 
+png)
+<use figure/scatter-plot-bias-hh-nothispanic-great2015.png>
+Package pdftex.def Info: figure/scatter-plot-bias-hh-nothispanic-great2015.png 
+ used on input line 1035.
+(pdftex.def)             Requested size: 380.49637pt x 228.29681pt.
+ [79 <./figure/scatter-plot-bias-hh-nothispanic-less2015.png> <./figure/scatter
+-plot-bias-hh-nothispanic-great2015.png>]
+<figure/iatexample1.png, id=386, 1170.3725pt x 560.0925pt>
+File: figure/iatexample1.png Graphic file (type png)
+<use figure/iatexample1.png>
+Package pdftex.def Info: figure/iatexample1.png  used on input line 1062.
+(pdftex.def)             Requested size: 202.93095pt x 97.11174pt.
+<figure/iatexample2.png, id=387, 730.73pt x 502.87875pt>
+File: figure/iatexample2.png Graphic file (type png)
+<use figure/iatexample2.png>
+Package pdftex.def Info: figure/iatexample2.png  used on input line 1068.
+(pdftex.def)             Requested size: 202.93095pt x 139.65408pt.
+<figure/iatexample3.png, id=388, 739.76375pt x 500.87125pt>
+File: figure/iatexample3.png Graphic file (type png)
+<use figure/iatexample3.png>
+Package pdftex.def Info: figure/iatexample3.png  used on input line 1073.
+(pdftex.def)             Requested size: 202.93095pt x 137.39992pt.
+<figure/iatexample4.png, id=389, 733.74126pt x 503.8825pt>
+File: figure/iatexample4.png Graphic file (type png)
+<use figure/iatexample4.png>
+Package pdftex.def Info: figure/iatexample4.png  used on input line 1078.
+(pdftex.def)             Requested size: 202.93095pt x 139.3562pt.
+<figure/iatexample5.png, id=390, 732.7375pt x 504.88625pt>
+File: figure/iatexample5.png Graphic file (type png)
+<use figure/iatexample5.png>
+Package pdftex.def Info: figure/iatexample5.png  used on input line 1083.
+(pdftex.def)             Requested size: 202.93095pt x 139.82639pt.
+ (./tables/tab01-observations-by-parents.tex) [80 <./figure/iatexample1.png> <.
+/figure/iatexample2.png> <./figure/iatexample3.png> <./figure/iatexample4.png> 
+<./figure/iatexample5.png>] [81]
+(./tables/tab02-observations-by-couple.tex) [82]
+(./tables/tab03-summary-stats.tex) [83] (./tables/tab04-summary-stats.tex)
+[84] (./tables/tab05-regression.tex) [85] (./tables/tab06-regression.tex)
+[86] (./tables/tab07-regression.tex) [87]
+(./tables/tab06-regression_tab_byproxy_skin.tex) [88]
+(./tables/tab03-iat_regression_tab.tex)
+Overfull \vbox (1.93988pt too high) has occurred while \output is active []
+
+
+[89] (./tables/tab43-regression_tab_bygen_skin.tex)
+Overfull \vbox (18.29277pt too high) has occurred while \output is active []
+
+
+[90] (./tables/tab44-iat_regression_tab_byparent_type-cg.tex) [91]
+(./tables/tab48-iat_regression_tab_bygrandparent_type-cg.tex) [92]
+(./Dissertation Sample - For Reference.bbl [93] [94] [95] [96] [97] [98]
+[99] [100] [101]) [102] (./Dissertation Sample - For Reference.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20079 strings out of 478287
- 440821 string characters out of 5846751
- 685985 words of memory out of 5000000
- 37955 multiletter control sequences out of 15000+600000
- 474534 words of font info for 46 fonts, out of 8000000 for 9000
+ 23621 strings out of 478287
+ 521942 string characters out of 5846751
+ 764694 words of memory out of 5000000
+ 41321 multiletter control sequences out of 15000+600000
+ 477146 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,89p,988b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Dissertation Sample - For Reference.pdf" (8 pages, 64123 byt
-es).
+ 84i,19n,131p,3223b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "Dissertation Sample - For Reference.pdf" (112 pages, 6734814
+ bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 555 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,48 @@
+\begin{table}[H]
+
+\caption{Relationship Between Bias and Self-Reported Hispanic Identity \label{regtab-01}}
+\centering
+\resizebox{0.8\textwidth}{!}{
+\begin{threeparttable}
+\begin{tabular}[t]{lccccc}
+\toprule
+  & \specialcell{(1) \\ $H_i$} & \specialcell{(2) \\ $H_i$} & \specialcell{(3) \\ $H_i$} & \specialcell{(4) \\ $H_i$} & \specialcell{(5) \\ $H_i$}\\
+\midrule
+Bias & \num{-0.04} & \num{0.00} & \num{-0.03}*** & \num{0.03} & \num{-0.10}**\\
+ & (\num{0.03}) & (\num{0.05}) & (\num{0.01}) & (\num{0.03}) & (\num{0.04})\\
+Female & \num{0.00} & \num{0.00} & \num{0.00} & \num{0.00} & \num{0.00}\\
+ & (\num{0.00}) & (\num{0.00}) & (\num{0.00}) & (\num{0.00}) & (\num{0.00})\\
+College Graduate: Mother & \num{-0.05}*** & \num{-0.06}*** & \num{-0.05}*** & \num{-0.05}*** & \num{-0.05}***\\
+ & (\num{0.01}) & (\num{0.01}) & (\num{0.01}) & (\num{0.01}) & (\num{0.01})\\
+College Graduate: Father & \num{-0.07}*** & \num{-0.07}*** & \num{-0.06}*** & \num{-0.06}*** & \num{-0.06}***\\
+ & (\num{0.00}) & (\num{0.00}) & (\num{0.01}) & (\num{0.01}) & (\num{0.01})\\
+First Gen & \num{-1.18}*** & \num{0.13}*** & \num{0.36}*** & \num{0.04}*** & \num{0.26}***\\
+ & (\num{0.03}) & (\num{0.01}) & (\num{0.03}) & (\num{0.01}) & (\num{0.03})\\
+Second Gen & \num{-1.19}*** & \num{0.11}*** & \num{0.34}*** & \num{0.02}*** & \num{0.24}***\\
+ & (\num{0.02}) & (\num{0.01}) & (\num{0.02}) & (\num{0.01}) & (\num{0.03})\\
+\midrule
+N & \num{844481} & \num{844481} & \num{844481} & \num{844481} & \num{844481}\\
+State FE &  &  & X & X & \\
+Year FE &  & X &  & X & \\
+Mean & \num{0.91} & \num{0.91} & \num{0.91} & \num{0.91} & \num{0.91}\\
+Year $\times$ Region FE &  &  &  &  & X\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}* p $<$ 0.1, ** p $<$ 0.05, *** p $<$ 0.01}\\
+\end{tabular}
+\begin{tablenotes}
+\small
+\item[1] \footnotesize{Each column is an estimation of a regression the following regression 
+                      (\ref{eq:identity_reg_bias}) with different set of
+                      fixed effects. I include controls for sex, quartic age, parental education, fraction of Hispanics in a state, and generational, parents' and grandparents' type dummy variables.
+                      Standard errors are clustered on the state level.}
+\item[2] \footnotesize{The samples include children ages 17 and below who live in intact families. 
+                      First-generation Hispanic immigrant children that were born in a 
+                      Spanish speaking county. Native born second-generation Hispanic 
+                      immigrant children with at least one parent born in a Spanish speaking 
+                      country. Finally, native born third-generation Hispanic immigrant children 
+                      with native born parents and at least one grandparent born in a Spanish 
+                      speaking country.}
+\item[3] \footnotesize{Data source is the 2004-2021 Current Population Survey.}
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
