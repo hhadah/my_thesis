@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Hadah_Thesis"] 1681068030 "Hadah_Thesis.aux" "Hadah_Thesis.bbl" "Hadah_Thesis" 1681068238
+["bibtex Hadah_Thesis"] 1681084534 "Hadah_Thesis.aux" "Hadah_Thesis.bbl" "Hadah_Thesis" 1681084545
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "Dissertation.bib" 1680927255 537915 a28ee5acdf6c3db0a3392dd7f02fcbe8 ""
-  "Hadah_Thesis.aux" 1681068238 30519 ca4c44db99883efb914e77180d5fdcb3 "pdflatex"
+  "Hadah_Thesis.aux" 1681084545 30415 2b09a60543617b3457b83de78cea8353 "pdflatex"
   (generated)
   "Hadah_Thesis.bbl"
   "Hadah_Thesis.blg"
-["pdflatex"] 1681068227 "Hadah_Thesis.tex" "Hadah_Thesis.pdf" "Hadah_Thesis" 1681068238
+["pdflatex"] 1681084534 "Hadah_Thesis.tex" "Hadah_Thesis.pdf" "Hadah_Thesis" 1681084545
   "/Users/hhadah/Library/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1643922251 2796795 9b37e65f83922863af74fc947fc5804c ""
   "/Users/hhadah/Library/texmf/tex/latex/multicol.sty" 1084240224 25928 526edd03c609ff2cdc4805a41441008e ""
   "/Users/hhadah/Library/texmf/tex/latex/setspace.sty" 1130857036 22518 969fcbccb9feb6c080f52825bb5fe1e1 ""
@@ -185,12 +185,12 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1643922253 4379201 718a59215bccc89d4f89ee72c554b0e8 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "GraphNonWhites.png" 1617744734 55443 82ea786e3374d9aff51af2115960eecf ""
-  "Hadah_Thesis.aux" 1681068238 30519 ca4c44db99883efb914e77180d5fdcb3 "pdflatex"
-  "Hadah_Thesis.bbl" 1681068030 23843 61b66a1c3c1ce70112df086e4407475e "bibtex Hadah_Thesis"
-  "Hadah_Thesis.lof" 1681068238 3310 cf242e3722785a1c93d0539c37008664 "pdflatex"
-  "Hadah_Thesis.lot" 1681068238 3077 08e8dbc50e7085f6f2ca74336f554a1d "pdflatex"
-  "Hadah_Thesis.tex" 1681068226 130229 0e82daa10e162cb3c4068861dca665ed ""
-  "Hadah_Thesis.toc" 1681068238 3014 2f96476e14d31634bee7a5f32d4bae29 "pdflatex"
+  "Hadah_Thesis.aux" 1681084545 30415 2b09a60543617b3457b83de78cea8353 "pdflatex"
+  "Hadah_Thesis.bbl" 1681084534 23843 61b66a1c3c1ce70112df086e4407475e "bibtex Hadah_Thesis"
+  "Hadah_Thesis.lof" 1681084545 3313 2b54c7927118159e69ac9dc446a4c051 "pdflatex"
+  "Hadah_Thesis.lot" 1681084545 3075 0f132d2730726311b5a645811d4549f6 "pdflatex"
+  "Hadah_Thesis.tex" 1681084522 130282 cc43dca060a43c6a0a06f28ca39551f4 ""
+  "Hadah_Thesis.toc" 1681084545 2952 17027481ff710737b25a2066c4819869 "pdflatex"
   "HispanicUSA.png" 1617744753 51621 f6be69e4108eec1091b7789a191a0b89 ""
   "PirChart2.png" 1620750998 279447 ccf8e10bc6197fb02bd40302f00e218e ""
   "figure/2004skinmap.png" 1676780385 209148 030377d2cc37ef1586fdf242f6aab347 ""
