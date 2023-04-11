@@ -1,0 +1,129 @@
+---
+title: "Essays in Microeconomics"
+# subtitle: "The Effect of Racial and Ethnic Attitudes on Hispanic Identity in the U.S."
+institution: "University of Houston"
+author: "Hussain Hadah"
+date: "4/13/2023"
+header-includes:
+   - \input{preamble}
+
+output:
+  beamer_presentation:
+    slide_level: 3
+    toc: true
+    theme: "CambridgeUS"
+    colortheme: "beaver"
+    fonttheme: "structurebold"
+    fig_width: 7
+    fig_height: 5
+    fig_caption: false
+    #incremental: true
+bibliography: AttitudesPaper.bib
+biblio-style: apalike
+#nocite: '@*'
+---
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+
+### Load and install the packages that we'll be using today
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tictoc, parallel, pbapply, future, future.apply, furrr, RhpcBLASctl, memoise, here, foreign, mfx, tidyverse, hrbrthemes, estimatr, ivreg, fixest, sandwich, lmtest, margins, vtable, broom, modelsummary, stargazer, fastDummies, recipes, dummy, gplots, haven, huxtable, kableExtra, gmodels, survey, gtsummary, data.table, tidyfast, dtplyr, microbenchmark, ggpubr, tibble, viridis, wesanderson, censReg, rstatix, srvyr, formatR, sysfonts, showtextdb, showtext, thematic, sampleSelection, RefManageR, DT, googleVis, png, gridExtra, grid, lattice, renderthis, chromote)
+# devtools::install_github("thomasp85/patchwork")
+remotes::install_github("mitchelloharawild/icons")
+remotes::install_github("ROpenSci/bibtex")
+remotes::install_github("jhelvy/renderthis", dependencies = TRUE)
+remotes::install_github("rstudio/chromote")
+
+# devtools::install_github("ajdamico/lodown")
+### My preferred ggplot2 plotting theme (optional)
+### https://github.com/hrbrmstr/hrbrthemes
+# scale_fill_ipsum()
+# scale_color_ipsum()
+font_add_google("Fira Sans", "firasans")
+font_add_google("Fira Code", "firasans")
+
+showtext_auto()
+
+theme_customs <- theme(
+  text = element_text(family = 'firasans', size = 16),
+  plot.title.position = 'plot',
+  plot.title = element_text(
+    face = 'bold', 
+    colour = thematic::okabe_ito(8)[6],
+    margin = margin(t = 2, r = 0, b = 7, l = 0, unit = "mm")
+  ),
+)
+
+colors <-  thematic::okabe_ito(5)
+
+# theme_set(theme_minimal() + theme_customs)
+theme_set(hrbrthemes::theme_ipsum() + theme_customs)
+### Set master directory where all sub-directories are located
+mdir <- "~/Documents/GiT/Attitudes-and-Identity/presentations/jmp-presentation"
+
+### Set working directories
+pres_tabs <- paste0(mdir,"/tables")
+pres_plots <- paste0(mdir,"/figures")
+
+### Set working directory
+
+# COLOR PALLETES
+library(paletteer) 
+# paletteer_d("awtools::a_palette")
+# paletteer_d("suffrager::CarolMan")
+
+### COLOR BLIND PALLETES
+#paletteer_d("colorblindr::OkabeIto")
+#paletteer_d("colorblindr::OkabeIto_black")
+# paletteer_d("colorBlindness::paletteMartin")
+# paletteer_d("colorBlindness::Blue2DarkRed18Steps")
+# paletteer_d("colorBlindness::SteppedSequential5Steps")
+# paletteer_d("colorBlindness::PairedColor12Steps")
+# paletteer_d("colorBlindness::ModifiedSpectralScheme11Steps")
+colorBlindness <- paletteer_d("colorBlindness::Blue2Orange12Steps")
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+# scale_colour_paletteer_d("colorBlindness::ModifiedSpectralScheme11Steps", dynamic = FALSE)
+# To use for fills, add
+  scale_fill_manual(values="colorBlindness::Blue2Orange12Steps")
+
+# To use for line and point colors, add
+  scale_colour_manual(values="colorBlindness::Blue2Orange12Steps")
+  #<a><button>[Click me](#sources)</button></a>
+  
+```
+
+# Motivation
+
+### The Role of Identity
+
+-   Identity matters in many economic contexts [@akerlofEconomicsIdentity2000]
+
+    -   A person's identity contributes to utility and affects decision-making [@akerlofEconomicsIdentity2000]
+
+-   Identity could shift public opinions toward trade [@grossmanIdentityPoliticsTrade2021]
+
+-   Racial and gender attitudes affect the racial and gender earnings gaps [@charlesPrejudiceWagesEmpirical2008; @charlesEffectsSexismAmerican2018]
+
+-   Thus, it is important to understand if and how ethnic identities are chosen and shaped by society
+
+\hyperlink{label}{\beamerbutton{I jump to the last slide}}
+
+
+### Summary Statistics of CPS Sample
+
+\input{tables/tab01-SumStat.tex}
+
+\hypertarget{label}{\beamerbutton{I'm on the last slide}}
+
+
+### References {.allowframebreaks}
