@@ -1,0 +1,28 @@
+\begin{table}[!h]
+\centering
+\resizebox{0.6\linewidth}{!}{
+\begin{tabular}[t]{l>{}cc}
+\toprule
+  & \specialcell{(1) \\ Log annual earnings} & \specialcell{(2) \\  Log annual earnings}\\
+\midrule
+$WH_{i} \times Hispanic_{i}$ & \cellcolor[HTML]{ffff30}{\num{-0.14}***} & \num{-0.08}\\
+ & \cellcolor[HTML]{ffff30}{(\num{0.05})} & (\num{0.05})\\
+$HW_{i} \times Hispanic_{i}$ & \cellcolor[HTML]{ffff30}{\num{-0.18}***} & \num{-0.12}*\\
+ & \cellcolor[HTML]{ffff30}{(\num{0.07})} & (\num{0.06})\\
+$HH_{i} \times Hispanic_{i}$ & \cellcolor[HTML]{ffff30}{\num{-0.10}*} & \num{-0.06}\\
+ & \cellcolor[HTML]{ffff30}{(\num{0.06})} & (\num{0.05})\\
+\midrule
+$HW_{i} \times Hispanic_{i} - WH_{i} \times Hispanic_{i}$ & \cellcolor[HTML]{ffff30}{-0.03} & -0.04\\
+ & \cellcolor[HTML]{ffff30}{(0.07)} & (0.06)\\
+\midrule
+Observations & \cellcolor[HTML]{ffff30}{\num{129359}} & \num{129359}\\
+State FE & \cellcolor[HTML]{ffff30}{X} & X\\
+Year FE & \cellcolor[HTML]{ffff30}{X} & X\\
+\textit{Controlling for:} & \cellcolor[HTML]{ffff30}{} & \\
+Hours Worked & \cellcolor[HTML]{ffff30}{X} & X\\
+Age & \cellcolor[HTML]{ffff30}{X} & X\\
+Education & \cellcolor[HTML]{ffff30}{} & X\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}* p $<$ 0.1, ** p $<$ 0.05, *** p $<$ 0.01}\\
+\end{tabular}}
+\end{table}

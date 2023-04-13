@@ -1,0 +1,28 @@
+\begin{table}[!h]
+\centering
+\resizebox{0.5\linewidth}{!}{
+\begin{tabular}[t]{l>{}cc}
+\toprule
+  & \specialcell{(1) \\ Log annual earnings} & \specialcell{(2) \\  Log annual earnings}\\
+\midrule
+$WH_{i}$ & \cellcolor[HTML]{ffff30}{\num{-0.14}***} & \num{-0.09}***\\
+ & \cellcolor[HTML]{ffff30}{(\num{0.03})} & (\num{0.02})\\
+$HW_{i}$ & \cellcolor[HTML]{ffff30}{\num{-0.20}***} & \num{-0.11}***\\
+ & \cellcolor[HTML]{ffff30}{(\num{0.02})} & \vphantom{1} (\num{0.01})\\
+$HH_{i}$ & \cellcolor[HTML]{ffff30}{\num{-0.24}***} & \num{-0.12}***\\
+ & \cellcolor[HTML]{ffff30}{(\num{0.02})} & (\num{0.01})\\
+\midrule
+$HW_{i} - WH_{i}$ & \cellcolor[HTML]{ffff30}{-0.06**} & -0.02\\
+ & \cellcolor[HTML]{ffff30}{(0.03)} & (0.02)\\
+\midrule
+Observations & \cellcolor[HTML]{ffff30}{\num{129359}} & \num{129359}\\
+State FE & \cellcolor[HTML]{ffff30}{X} & X\\
+Year FE & \cellcolor[HTML]{ffff30}{X} & X\\
+\textit{Controlling for:} & \cellcolor[HTML]{ffff30}{} & \\
+Hours Worked & \cellcolor[HTML]{ffff30}{X} & X\\
+Age & \cellcolor[HTML]{ffff30}{X} & X\\
+Education & \cellcolor[HTML]{ffff30}{} & X\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}* p $<$ 0.1, ** p $<$ 0.05, *** p $<$ 0.01}\\
+\end{tabular}}
+\end{table}

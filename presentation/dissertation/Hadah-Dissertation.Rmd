@@ -18,6 +18,7 @@ output:
     fig_height: 5
     fig_caption: false
     #incremental: true
+classoption: "aspectratio=169"
 bibliography: AttitudesPaper.bib
 biblio-style: apalike
 #nocite: '@*'
@@ -102,28 +103,482 @@ cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2"
   
 ```
 
-# Motivation
+# The Impact of Hispanic Last Names and Identity on Labor Market Outcomes
+
+## Introduction
+
+### Research Questions
+
+- Do Hispanics face discrimination in the labor market?
+
+1. Does having a Hispanic last name affect a person's labor market outcomes?
+  
+- Audit-studies studied the effect of an ethnic-sounding name on employer discrimination \footnotesize(Bertrand and Mullainathan 2004; Fryer and Levitt 2004)
+  
+2. What is the effect of identifying as Hispanic on labor market outcomes?
+
+- This is another approach I will use to study discrimination using how a person identifies similar to Akerlof and Kranton (2000) model of identity
+
+\hyperlink{label}{\beamerbutton{I jump to the last slide}}
+
+### Motivation
+ 
+- Native-born White Hispanic men earn 21% less than White men \footnotesize(Duncan and Trejo 2018)
+
+\bigskip
+
+- A substantial portion of the gap is due to educational differences between Hispanics and Whites \footnotesize(Duncan, Hotz, and Trejo 2006; Duncan and Trejo 2018)
+
+\bigskip
+
+- In this chapter, I examine the role of having a Hispanic last name and identifying as Hispanic on labor market outcomes
+
+### Contribution
+
+- Audit-studies investigated the role of ethnic and racial names on employer discrimination \footnotesize(Bertrand and Mullainathan 2004; Fryer and Levitt 2004)
+
+\bigskip
+
+- A drawback to these studies is that they only observe callbacks, but not wages
+
+\bigskip
+
+- I use a method developed by Rubinstein and Brenner (2014) and compare the children of inter-ethnic couples.
+
+\bigskip
+
+- I compare the outcomes of children with a White father-Hispanic mother, and Hispanic father-White mother
+
+\bigskip
+
+- The labor market outcome I am focusing on is log annual earnings
+
+## Data
+
+### I use two data sets for this paper
+
+1. The Current Population Survey (CPS) Annual Social and Economic (ASEC) Supplement from 1994 to 2019.
+
+\bigskip
+
+2. The 1970 to 1990 censuses 
+
+### Studying the Effect of Hispanic Ancestry
+
+- I use the CPS for my main analysis.
+
+- The sample includes:
+
+  1. 1970 to 1990 birth cohorts
+  
+  2. Aged 25 to 40
+  
+  3. Native born White citizens
+
+- I divide the sample into four groups, depending on the place of birth of parents.
+
+  1. A parent is Hispanic if they were born in a Spanish-speaking country.
+  
+  2. White if they are native-born
+
+- I do not observe parents' characteristics directly but impute from "synthetic" parents
+
+### Constructing synthetic parents
+
+Following Rubinstein and Brenner (2014), I construct synthetic parents from the 1970-1990 censuses The sample includes:
+
+\bigskip
+
+1. Married couples
+
+\bigskip
+
+2. Whites
+
+\bigskip
+
+3. I assume that parents give birth between the ages of 25 and 40
+
+### Constructing synthetic parents (cont.)
+
+\begin{center}
+\begin{figure}
+\begin{tikzpicture}[node distance =2cm]
+\node (start) [startstop] {Synthetic Parents: Observed in 1970 to 1990. $25 \leq age \leq 40$};
+
+\node (pro1) [process, below of = start, yshift = -2cm] {Children: Observed between 1994 and 2019. Born between 1970 to 1990 and $25 \leq age \leq 40$};
+
+\draw [arrow] (start) -- (pro1);
+\end{tikzpicture}
+\label{flowchart1}
+\end{figure}
+\end{center}
+
+### Defining Hispanics
+
+- I introduce two alternative definitions of Hispanic:
+
+\bigskip
+
+  1. Based on parent's country of birth (ancestry)
+  
+\bigskip
+
+  2. Based on the self-reported Hispanic identification
+
+\bigskip
+  
+  - Trejo (2017, 2019) has shown that those who self-identify as Hispanic have worse labor market outcomes
+
+### Distribution of the four groups
+
+\begin{center}
+\begin{figure}
+\includegraphics[width=0.7\textwidth]{figures/PirChart2.png} 
+\label{fig:dist}
+\end{figure}
+\end{center}
+
+<!-- ### Tabulation -->
+
+<!-- \input{tables/tab01-observations-by-parents.tex} -->
+
+### Tabulation
+
+\input{tables/tab02-observations-by-couple.tex}
+
+### Educational outcomes of synthetic "parents" and children
+
+\input{tables/tab03ab-summary-stats.tex}
+
+### Summary statistics of labor market outcomes and self-reported Hispanic identity
+
+\input{tables/tab03c-summary-stats.tex}
+
+\hypertarget{label}{\beamerbutton{I'm on the last slide}}
+
+## Empirical Model & Results
+
+### Effect of Hispanic Last Name
+
+$$Y_{ist} = {\color{red}{\pmb{\beta_{1}}}} HW_{ist} + {\color{red}{\pmb{\beta_{2}}}} WH_{ist} + {\color{red}{\pmb{\beta_{3}}}} HH_{ist} + X_{ist}^{\prime}\pi + \gamma_{t}+ \lambda{s} + \phi_{ist}$$
+
+- $Y_{ist}$ is the log annual earnings for person $i$ at time $t$
+
+- $HW_{ist}$, $WH_{ist}$ and $HH_{ist}$ are dummy variables for parents' ethnicities.
+
+- $X_{ist}$ is a vector of controls
+
+- $\gamma_{t}$ is time fixed effects
+
+- $\phi_{ist}$ is the error term
+
+- ${\color{red}{\pmb{\beta_{1}}}}, {\color{red}{\pmb{\beta_{2}}}}$ and ${\color{red}{\pmb{\beta_{3}}}}$ are the parameters of interest
+
+- They estimate the gaps between the groups and WW
+
+- I restrict the analysis to full-time full year and waged and salaried males
+
+### Last name effect on log annual earnings
+
+\input{tables/tab05-regression.tex}
+
+### Last name effect on log annual earnings
+
+\input{tables/tab05a-regression.tex}
+
+### Last name effect on log annual earnings
+
+\input{tables/tab05b-regression.tex}
+
+### Effect of identifying as Hispanic
+
+\begin{align*}
+Y_{ist} &= \beta_{1} HW_{ist} +  \beta_{2} WH_{ist} + \beta_{3} HH_{ist} +\\
+& {\color{red}{\pmb{\beta_{4}}}} WH_{ist} \cdot Hispanic_{ist} + {\color{red}{\pmb{\beta_{5}}}} HW_{ist}\cdot Hispanic_{ist} +  {\color{red}{\pmb{\beta_{6}}}} HH_{ist} \cdot Hispanic_{ist}+  \\
+&X_{ist}^{\prime}\pi + \gamma_{t} + \lambda{s} + \phi_{ist} 
+\end{align*}
+
+Restrict the sample to HW and WH 
+Where:
+
+- $Y_{ist}$ is the log hourly earnings for person $i$ at time $t$
+
+- $HW_{ist}$, $WH_{ist}$ and $HH_{ist}$ are dummy variables for parents' ethnicities
+
+- $Hispanic_{ist} = \left\{\begin{array}{r l}1 & \text{if individual identifies as Hispanic}\\0 & \text{otherwise}\end{array}\right.$
+
+### Effect of identifying as Hispanic (cont.)
+
+\begin{align*}
+Y_{ist} &= \beta_{0} +  \beta_{1} HW_{ist} +  \beta_{2} WH_{ist} + \beta_{3} HH_{ist} +\\
+& {\color{red}{\pmb{\beta_{4}}}} WH_{ist} \cdot Hispanic_{ist} + {\color{red}{\pmb{\beta_{5}}}} HW_{ist}\cdot Hispanic_{ist} +  {\color{red}{\pmb{\beta_{6}}}} HH_{ist} \cdot Hispanic_{ist}+  \\
+&X_{ist}^{\prime} + \gamma_{t}+\phi_{ist} 
+\end{align*}
+
+- $X_{ist}$ is a vector of controls
+
+- $\gamma_{t}$ is time fixed effects
+
+- $\phi_{ist}$ is the error term
+
+- ${\color{red}{\pmb{\beta_{4}}}}, {\color{red}{\pmb{\beta_{5}}}}$ and  ${\color{red}{\pmb{\beta_{6}}}}$ estimates the earnings gap of identifying as Hispanic
+
+- I restrict the analysis to full-time full year and waged and salaried males
+
+### Results
+
+\input{tables/tab06-regression.tex}
+
+### Results
+
+\input{tables/tab06a-regression.tex}
+
+### Results
+
+\input{tables/tab06b-regression.tex}
+
+### Conclusion
+
+- I compare the children of inter-ethnic marriages to study the labor market impact of Hispanic last names
+
+- While males born to White father-Hispanic mother earn less than males born to Hispanic father-White mother, this gap is entirely due to the education gap
+
+- I do not find a significant effect of having a Hispanic last name 
+
+- I do find that men that identify as Hispanic earn significantly less than those that do not even when controlling for ancestry and education
+
+# The Effect of Racial and Ethnic Attitudes on Hispanic Identity in the U.S.
+
+### The Role of Identity
+
+- Identity matters in many economic contexts \footnotesize[@grossmanIdentityPoliticsTrade2021]
+
+- Identity could shift public opinions toward trade \footnotesize[@grossmanIdentityPoliticsTrade2021]
+
+- Racial and gender attitudes affect the racial and gender earnings gaps \footnotesize[@charlesPrejudiceWagesEmpirical2008; @charlesEffectsSexismAmerican2018]
+
+- Person’s identity has personal costs/benefits and social costs/benefits that affect economic outcomes \footnotesize[@akerlofEconomicsIdentity2000]
+
+- Thus, it is important to understand if and how ethnic identities are chosen and shaped by society
 
 ### The Role of Identity
 
 -   Identity matters in many economic contexts [@akerlofEconomicsIdentity2000]
 
-    -   A person's identity contributes to utility and affects decision-making [@akerlofEconomicsIdentity2000]
+    - A person's identity contributes to utility and affects decision-making \footnotesize[@akerlofEconomicsIdentity2000]
 
--   Identity could shift public opinions toward trade [@grossmanIdentityPoliticsTrade2021]
+-   Identity could shift public opinions toward trade \footnotesize[@grossmanIdentityPoliticsTrade2021]
 
--   Racial and gender attitudes affect the racial and gender earnings gaps [@charlesPrejudiceWagesEmpirical2008; @charlesEffectsSexismAmerican2018]
+-   Racial and gender attitudes affect the racial and gender earnings gaps \footnotesize[@charlesPrejudiceWagesEmpirical2008; @charlesEffectsSexismAmerican2018]
 
 -   Thus, it is important to understand if and how ethnic identities are chosen and shaped by society
 
-\hyperlink{label}{\beamerbutton{I jump to the last slide}}
+### Research Question
 
+-   How do individual characteristics and social attitudes toward racial and ethnic minorities affect the self-reported identity of Hispanics in the United States?
+
+### Measuring Hispanic Identity
+
+-   In most datasets, ethnicity is self-reported, i.e. *subjective*
+
+-   A more *objective* measure would be based on ancestry, name, etc.
+
+-   Data on objective measures of Hispanic identity is not commonly available
+
+-   I use the *Current Population Surveys*, which report the country of birth of parents
+
+-   Three generations can be identified as young people still living with parents
+
+## Data
+
+### Current Population Survey (CPS)
+
+-   Monthly survey of more than 65,000 households
+
+-   I link household members to each other
+
+-   Starting in 1994, CPS asked about the place of birth of parents
+
+-   This allows me to construct an objective measure of the Hispanic identity of minors under the age of 17 that live with their parents
+
+-   The sample is children 17-year-old and younger living with their parents between 2004 to 2021
 
 ### Summary Statistics of CPS Sample
 
 \input{tables/tab01-SumStat.tex}
 
-\hypertarget{label}{\beamerbutton{I'm on the last slide}}
+### Identifying Three Generations of Hispanics
+
+```{r, echo=FALSE, out.width="80%", warning=FALSE, fig.align = 'center'}
+img1 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","diag.png"))), interpolate = FALSE)
+
+grid.arrange(img1)
+```
+
+### Implicit Association Test (IAT) as a Measure of Bias {#id}
+
+-   An implicit association test measures how people associate:
+
+    -   Concepts as in dark-skinned people
+
+    -   Evaluations as in good, bad, or stereotypes
+
+-   The innovation of such the test that it could measure the attitudes and beliefs of people that they would be unwilling to report on a survey
+
+-   IAT was shown to be correlated with economic outcomes, voting behavior, and health \footnotesize[@chettyRaceEconomicOpportunity2020; @gloverDiscriminationSelfFulfillingProphecy2017; @friesePredictingVotingBehavior2007; @leitnerRacialBiasAssociated2016; @alsanDoesDiversityMatter2019]
+
+-   I use data from 2004 to 2021
+
+### Summary Statistics of IAT Sample
+
+\input{tables/tab46-Skin-Iat-cps-SumStat.tex}
+
+### Implicit Association Test (IAT): Example
+
+```{r, echo=FALSE, out.width="70%", warning=FALSE, fig.align = 'center'}
+img1 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample1.png"))), interpolate = FALSE)
+img2 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample2.png"))), interpolate = FALSE)
+img3 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample3.png"))), interpolate = FALSE)
+img4 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample4.png"))), interpolate = FALSE)
+img5 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample5.png"))), interpolate = FALSE)
 
 
+grid.arrange(img1, img2, img3, img4, img5, ncol = 3, nrow = 2)
+# knitr::include_graphics(normalizePath(file.path(tables_plots_dir,"patched_plots.png")))
+```
+
+## Empirical Strategy
+
+### Estimating the Effect of Bias on Subjective Hispanic Identity
+
+I am going to estimate the following effects separately for generation $g \in \{1,2,3\}$
+
+```{=tex}
+\begin{align*}
+H_{ist}^g &= \beta_1^g Bias_{st} +\beta_2^g DadCollegeGrad_{ist}+\beta_3^g MomCollegeGrad_{ist} + \beta_4^g Woman_{ist} \\
+           &+ X_{ist}^g\pi + \gamma_{rt} 
+           + \varepsilon_{ist}; 
+           \text{where } g \in \{1,2,3\}
+\end{align*}
+```
+
+Where for person $i$ in state $s$ interviewed at year $t$:
+
+-   $H_{ist}^g$ is the subjective Hispanic identity of person from generation $g \in \{1,2,3\}$
+
+-   $Bias_{st}$ is the average bias in state $s$ at year $t$
+
+-   $X_{ist}^p, X_{ist}^s$ are vectors of parental characteristics and controls that include education, parental types, age, and sex
+
+-   $\gamma_{rt}$ is region $\times$ time fixed effects
+
+### Estimating the Effect of Bias on Subjective Hispanic Identity
+
+```{=tex}
+\begin{align*}
+H_{ist}^g &= \beta_1^g Bias_{st} +\beta_2^g DadCollegeGrad_{ist}+\beta_3^g MomCollegeGrad_{ist} + \beta_4^g Woman_{ist} \\
+           &+ X_{ist}^g\pi + \gamma_{rt} 
+           + \varepsilon_{ist}; 
+           \text{where } g \in \{1,2,3\}
+\end{align*}
+```
+
+The coefficient of interest is
+
+-   $\beta_1^g$ that estimates the effect of bias on the subjective Hispanic identity
+
+
+## Results
+
+### Relationship Between Self-Reported Hispanic Identity And Bias: By Generation
+
+\begin{center}
+\begin{figure}[!htb]
+\centering
+%First graph
+\begin{subfigure}{.48\textwidth}
+\caption{All Generations}
+\centering
+\includegraphics[width=.7\linewidth]{figures/skin-iat-regression-all-gens.png}
+\end{subfigure}
+\centering
+%Second graph
+\begin{subfigure}{.48\textwidth}
+\caption{First-Generation}
+\centering
+\includegraphics[width=.7\linewidth]{figures/skin-iat-regression-first-gen.png}
+\end{subfigure}
+%Third Graph
+\begin{subfigure}{.48\textwidth}
+\caption{Second-Generation}
+\centering
+\includegraphics[width=.7\linewidth]{figures/skin-iat-regression-second-gen.png}
+\end{subfigure}
+%Fourth Graph
+\begin{subfigure}{.48\textwidth}
+\caption{Third-Generation}
+\centering
+\includegraphics[width=.7\linewidth]{figures/skin-iat-regression-third-gen.png}
+\end{subfigure}
+\end{figure}
+\end{center}
+
+### Relationship Between Self-Reported Hispanic Identity and Bias: By Parental Types
+
+\begin{center}
+\begin{figure}[!htb]
+\centering
+%First graph
+\begin{subfigure}{.48\textwidth}
+\caption{Second-Generation (All Parental Types)}
+\centering
+\includegraphics[width=.7\linewidth]{figures/by-parents-regs-all.png}
+\end{subfigure}
+\centering
+%Second graph
+\begin{subfigure}{.48\textwidth}
+\caption{Hispanic Fathers-Hispanic Mothers}
+\centering
+\includegraphics[width=.7\linewidth]{figures/by-parents-regs-hh.png}
+\end{subfigure}
+%Third Graph
+\begin{subfigure}{.48\textwidth}
+\caption{Hispanic Fathers-White Mothers}
+\centering
+\includegraphics[width=.7\linewidth]{figures/by-parents-regs-hw.png}
+\end{subfigure}
+%Fourth Graph
+\begin{subfigure}{.48\textwidth}
+\caption{White Fathers-Hispanic Mothers}
+\centering
+\includegraphics[width=.7\linewidth]{figures/by-parents-regs-wh.png}
+\end{subfigure}
+\end{figure}
+\end{center}
+
+### Relationship Between Bias And Self-Reported Hispanic Identity Among Third-Generation Hispanic Immigrants: By Grandparental Type
+
+\input{tables/tab45-iat_regression_tab_bygrandparent_type.tex}
+
+```{r, eval=FALSE,echo=FALSE, out.width="100%", warning=FALSE, fig.align = 'center'}
+results <- rasterGrob(as.raster(readPNG("skin-iat-regression-interaction-bygen-plot.png")), interpolate = FALSE)
+
+grid.arrange(results)
+```
+
+### Bias Negatively Affects Identity
+
+-   Attitudes toward ethnic minorities have a significant negative effect on the subjective identity of Hispanics
+
+-   A one-unit increase in bias is associated with a:
+
+    -   14 p.p. decrease in the subjective Hispanic identity of first-generation Hispanic immigrants
+
+    -   23 p.p. decrease in the subjective Hispanic identity of second-generation Hispanic immigrants
+
+-   A one-unit increase in bias is associated with a:
+
+    -   37 p.p. decrease in the subjective Hispanic identity of the second-generation Hispanic immigrants of Hispanic fathers-Hispanic Mothers
+    
 ### References {.allowframebreaks}

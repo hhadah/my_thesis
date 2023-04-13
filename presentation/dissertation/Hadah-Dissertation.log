@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  10 APR 2023 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  12 APR 2023 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,15 +730,12 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/xurl/xurl.sty
-Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
-Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
-File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count340
-)) (./preamble.tex (/usr/local/texlive/2021/texmf-dist/tex/latex/bbm-macros/bbm
-.sty
+)
+\cslhangindent=\skip68
+\csllabelwidth=\skip69
+\cslentryspacingunit=\skip70
+(./preamble.tex (/usr/local/texlive/2021/texmf-dist/tex/latex/bbm-macros/bbm.st
+y
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
@@ -756,28 +753,28 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen296
 \cmidrulekern=\dimen297
 \defaultaddspace=\dimen298
-\@cmidla=\count341
-\@cmidlb=\count342
+\@cmidla=\count340
+\@cmidlb=\count341
 \@aboverulesep=\dimen299
 \@belowrulesep=\dimen300
-\@thisruleclass=\count343
-\@lastruleclass=\count344
+\@thisruleclass=\count342
+\@lastruleclass=\count343
 \@thisrulewidth=\dimen301
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen302
 \l__siunitx_angle_marker_box=\box77
 \l__siunitx_angle_unit_box=\box78
-\l__siunitx_compound_count_int=\count345
+\l__siunitx_compound_count_int=\count344
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count346
-\l__siunitx_number_min_decimal_int=\count347
-\l__siunitx_number_min_integer_int=\count348
-\l__siunitx_number_round_precision_int=\count349
-\l__siunitx_number_group_minimum_int=\count350
+\l__siunitx_number_exponent_fixed_int=\count345
+\l__siunitx_number_min_decimal_int=\count346
+\l__siunitx_number_min_integer_int=\count347
+\l__siunitx_number_round_precision_int=\count348
+\l__siunitx_number_group_minimum_int=\count349
 \l__siunitx_table_tmp_box=\box79
 \l__siunitx_table_tmp_dim=\dimen303
 \l__siunitx_table_column_width_dim=\dimen304
@@ -787,15 +784,15 @@ Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
 \l__siunitx_table_after_box=\box83
 \l__siunitx_table_before_dim=\dimen305
 \l__siunitx_table_carry_dim=\dimen306
-\l__siunitx_unit_tmp_int=\count351
-\l__siunitx_unit_position_int=\count352
-\l__siunitx_unit_total_int=\count353
+\l__siunitx_unit_tmp_int=\count350
+\l__siunitx_unit_position_int=\count351
+\l__siunitx_unit_total_int=\count352
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count354
+\l__color_backend_stack_int=\count353
 \l__pdf_internal_box=\box84
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
@@ -805,43 +802,171 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \ar@mcellbox=\box85
 \extrarowheight=\dimen308
 \NC@list=\toks48
-\extratabsurround=\skip68
-\backup@length=\skip69
+\extratabsurround=\skip71
+\backup@length=\skip72
 \ar@cellbox=\box86
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks49
-\minrowclearance=\skip70
-))
+\minrowclearance=\skip73
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box87
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen309
+\c@nlinenum=\count354
+\TeXr@lab=\toks50
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen310
+\captionmargin@=\dimen311
+\captionwidth=\dimen312
+\caption@tempdima=\dimen313
+\caption@indent=\dimen314
+\caption@parindent=\dimen315
+\caption@hangindent=\dimen316
+Package caption Info: beamer document class detected.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ beamer document classes (AR)
+))
+\c@caption@flags=\count355
+\c@continuedfloat=\count356
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: threeparttable package is loaded.
 )
-\cslhangindent=\skip71
-\csllabelwidth=\skip72
+\c@subfigure=\count357
+\c@subtable=\count358
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/us
+r/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box88
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen317
+\pgf@nodesepend=\dimen318
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr
+/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/
+texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/loca
+l/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/20
+21/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2021/
+texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen319
+\pgffor@skip=\dimen320
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count359
+\pgfplotmarksize=\dimen321
+)
+\tikz@lastx=\dimen322
+\tikz@lasty=\dimen323
+\tikz@lastxsaved=\dimen324
+\tikz@lastysaved=\dimen325
+\tikz@lastmovetox=\dimen326
+\tikz@lastmovetoy=\dimen327
+\tikzleveldistance=\dimen328
+\tikzsiblingdistance=\dimen329
+\tikz@figbox=\box89
+\tikz@figbox@bg=\box90
+\tikz@tempbox=\box91
+\tikz@tempbox@bg=\box92
+\tikztreelevel=\count360
+\tikznumberofchildren=\count361
+\tikznumberofcurrentchild=\count362
+\tikz@fig@count=\count363
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count364
+\pgfmatrixcurrentcolumn=\count365
+\pgf@matrix@numberofcolumns=\count366
+)
+\tikz@expandcount=\count367
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen330
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count368
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 120.
+h' as default language. on input line 123.
 (./Hadah-Dissertation.aux)
 \openout1 = `Hadah-Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -850,12 +975,12 @@ LaTeX Font Info:    ... okay on input line 120.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95pt, 342.29536pt, 10.95pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=342.29536pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(10.95pt, 433.34409pt, 10.95pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=433.34409pt
+* \textheight=227.62207pt
 * \oddsidemargin=-61.31999pt
 * \evensidemargin=-61.31999pt
 * \topmargin=-72.26999pt
@@ -878,17 +1003,17 @@ LaTeX Font Info:    ... okay on input line 120.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count355
-\scratchdimen=\dimen309
-\scratchbox=\box88
-\nofMPsegments=\count356
-\nofMParguments=\count357
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count358
-\MPscratchDim=\dimen310
-\MPnumerator=\count359
-\makeMPintoPDFobject=\count360
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count369
+\scratchdimen=\dimen331
+\scratchbox=\box93
+\nofMPsegments=\count370
+\nofMParguments=\count371
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count372
+\MPscratchDim=\dimen332
+\MPnumerator=\count373
+\makeMPintoPDFobject=\count374
+\everyMPtoPDFconversion=\toks54
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -897,7 +1022,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 120.
+Package hyperref Info: Link coloring OFF on input line 123.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -907,57 +1032,57 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count361
+\c@section@level=\count375
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 120.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 123.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 120.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 123.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 120.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 123.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 120.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 123.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 120.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 123.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 120.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 120.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 123.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 120.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 120.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 123.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 120.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 120.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 123.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 120.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 120.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 123.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 120.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 123.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 120.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 120.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 120.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 120.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 120.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 120.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 123.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -983,12 +1108,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 120.
-Package microtype Info: Applying patch `item' on input line 120.
-Package microtype Info: Applying patch `toc' on input line 120.
-Package microtype Info: Applying patch `eqnum' on input line 120.
+LaTeX Info: Redefining \microtypecontext on input line 123.
+Package microtype Info: Applying patch `item' on input line 123.
+Package microtype Info: Applying patch `toc' on input line 123.
+Package microtype Info: Applying patch `eqnum' on input line 123.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 120.
+Package microtype Warning: Unable to apply patch `footnote' on input line 123.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -996,7 +1121,7 @@ Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 120.
+LaTeX Info: Redefining \showhyphens on input line 123.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1011,7 +1136,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 120.
+or `english'. on input line 123.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 (./Hadah-Dissertation.nav) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Hada
@@ -1021,10 +1148,23 @@ h-Dissertation.toc) [2
 
 ] [4
 
-] (./tables/tab01-SumStat.tex
-LaTeX Font Info:    Calculating math sizes for size <20> on input line 40.
+] [5
+
+] [6
+
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-40.
+354.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1032,65 +1172,230 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+54.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-40.
+354.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-40.
+354.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20> on input line 40.
+(Font)              <10.95> on input line 354.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13.99994> on input line 40.
+(Font)              <8> on input line 354.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 40.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
-
+(Font)              <6> on input line 354.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 354
+.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 354
+.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 40.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <13.99994> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 40.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 40.
-) [5
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 354.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 354.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 354.
+[12
+
+] [13
 
 ]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 190.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 190.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 190.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 190.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 190.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 190.
-[6
+<figures/PirChart2.png, id=195, 1437.87187pt x 958.58125pt>
+File: figures/PirChart2.png Graphic file (type png)
+<use figures/PirChart2.png>
+Package pdftex.def Info: figures/PirChart2.png  used on input line 399.
+(pdftex.def)             Requested size: 303.33952pt x 202.22949pt.
 
-] [7
+Overfull \vbox (1.5139pt too high) detected at line 399
+ []
+
+[14
+
+ <./figures/PirChart2.png>] (./tables/tab02-observations-by-couple.tex) [15
+
+] (./tables/tab03ab-summary-stats.tex) [16
+
+] (./tables/tab03c-summary-stats.tex)
+Overfull \vbox (14.4382pt too high) detected at line 418
+ []
+
+[17
+
+] [18
+
+] [19
+
+] (./tables/tab05-regression.tex)
+Overfull \vbox (9.76791pt too high) detected at line 453
+ []
+
+[20
+
+] (./tables/tab05a-regression.tex)
+Overfull \vbox (9.76791pt too high) detected at line 458
+ []
+
+[21
+
+] (./tables/tab05b-regression.tex)
+Overfull \vbox (9.76791pt too high) detected at line 463
+ []
+
+[22
+
+] [23
+
+] [24
+
+] (./tables/tab06-regression.tex) [25
+
+] (./tables/tab06a-regression.tex) [26
+
+] (./tables/tab06b-regression.tex) [27
+
+] [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+] (./tables/tab01-SumStat.tex) [36
+
+]
+<Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf, id=447, 493.845p
+t x 361.35pt>
+File: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf Graphic file
+ (type pdf)
+<use Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf>
+Package pdftex.def Info: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3
+-1.pdf  used on input line 655.
+(pdftex.def)             Requested size: 346.67659pt x 253.66557pt.
+
+Overfull \vbox (52.94998pt too high) detected at line 655
+ []
+
+[37
+
+ <./Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf>] [38
+
+] (./tables/tab46-Skin-Iat-cps-SumStat.tex) [39
+
+]
+<Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf, id=484, 505.89pt
+ x 297.11pt>
+File: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file
+ (type pdf)
+<use Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4
+-1.pdf  used on input line 691.
+(pdftex.def)             Requested size: 303.33952pt x 178.15402pt.
+[40
+
+ <./Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf>] [41
+
+] [42
+
+] [43
+
+] [44
+
+]
+<figures/skin-iat-regression-all-gens.png, id=562, 3011.25pt x 1204.5pt>
+File: figures/skin-iat-regression-all-gens.png Graphic file (type png)
+<use figures/skin-iat-regression-all-gens.png>
+Package pdftex.def Info: figures/skin-iat-regression-all-gens.png  used on inpu
+t line 781.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+<figures/skin-iat-regression-first-gen.png, id=563, 3011.25pt x 1204.5pt>
+File: figures/skin-iat-regression-first-gen.png Graphic file (type png)
+<use figures/skin-iat-regression-first-gen.png>
+Package pdftex.def Info: figures/skin-iat-regression-first-gen.png  used on inp
+ut line 781.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+<figures/skin-iat-regression-second-gen.png, id=564, 3011.25pt x 1204.5pt>
+File: figures/skin-iat-regression-second-gen.png Graphic file (type png)
+<use figures/skin-iat-regression-second-gen.png>
+Package pdftex.def Info: figures/skin-iat-regression-second-gen.png  used on in
+put line 781.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+<figures/skin-iat-regression-third-gen.png, id=565, 3011.25pt x 1204.5pt>
+File: figures/skin-iat-regression-third-gen.png Graphic file (type png)
+<use figures/skin-iat-regression-third-gen.png>
+Package pdftex.def Info: figures/skin-iat-regression-third-gen.png  used on inp
+ut line 781.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+[45
+
+ <./figures/skin-iat-regression-all-gens.png> <./figures/skin-iat-regression-fi
+rst-gen.png> <./figures/skin-iat-regression-second-gen.png> <./figures/skin-iat
+-regression-third-gen.png>]
+<figures/by-parents-regs-all.png, id=579, 3011.25pt x 1204.5pt>
+File: figures/by-parents-regs-all.png Graphic file (type png)
+<use figures/by-parents-regs-all.png>
+Package pdftex.def Info: figures/by-parents-regs-all.png  used on input line 81
+6.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+<figures/by-parents-regs-hh.png, id=580, 3011.25pt x 1204.5pt>
+File: figures/by-parents-regs-hh.png Graphic file (type png)
+<use figures/by-parents-regs-hh.png>
+Package pdftex.def Info: figures/by-parents-regs-hh.png  used on input line 816
+.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+<figures/by-parents-regs-hw.png, id=581, 3011.25pt x 1204.5pt>
+File: figures/by-parents-regs-hw.png Graphic file (type png)
+<use figures/by-parents-regs-hw.png>
+Package pdftex.def Info: figures/by-parents-regs-hw.png  used on input line 816
+.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+<figures/by-parents-regs-wh.png, id=582, 3011.25pt x 1204.5pt>
+File: figures/by-parents-regs-wh.png Graphic file (type png)
+<use figures/by-parents-regs-wh.png>
+Package pdftex.def Info: figures/by-parents-regs-wh.png  used on input line 816
+.
+(pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
+[46
+
+ <./figures/by-parents-regs-all.png> <./figures/by-parents-regs-hh.png> <./figu
+res/by-parents-regs-hw.png> <./figures/by-parents-regs-wh.png>] (./tables/tab45
+-iat_regression_tab_bygrandparent_type.tex)
+Overfull \vbox (14.80397pt too high) detected at line 823
+ []
+
+[47
+
+] [48
+
+] [49
+
+] [50
 
 
 ]
@@ -1105,24 +1410,32 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 
 (./Hadah-Dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 28295 strings out of 478287
- 592427 string characters out of 5846751
- 834679 words of memory out of 5000000
- 45790 multiletter control sequences out of 15000+600000
- 554458 words of font info for 134 fonts, out of 8000000 for 9000
+ 34388 strings out of 478287
+ 733590 string characters out of 5846751
+ 989707 words of memory out of 5000000
+ 51621 multiletter control sequences out of 15000+600000
+ 539881 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,1015b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,20n,122p,1015b,910s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips
-/lm/lm-ec.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss10.
-pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/lm/lmsso10.pfb>
-Output written on Hadah-Dissertation.pdf (7 pages, 143551 bytes).
+/lm/lm-mathex.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mat
+hsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/
+usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
+ive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/lm/lmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lm
+ss12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss8.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/lm/lmsy8.pfb>
+Output written on Hadah-Dissertation.pdf (50 pages, 1464410 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 53389 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 162 named destinations out of 1000 (max. 500000)
+ 45530 words of extra memory for PDF output out of 51595 (max. 10000000)
 

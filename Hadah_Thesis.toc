@@ -1,0 +1,34 @@
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {Acknowledgments}}}}}{iv}{}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {Abstract}}}}}{v}{}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {List of Figures}}}}}{viii}{}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } {\large {\bf {\uppercase {List of Tables}}}}}{ix}{}%
+\contentsline {section}{\numberline {1}\bf \uppercase {The Impact of Hispanic Last Names and Identity on Labor Market Outcomes}}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Introduction}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Data}{5}{}%
+\contentsline {subsection}{\numberline {1.3}Children of the four parental types}{6}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Synthetic parents}{10}{}%
+\contentsline {subsection}{\numberline {1.4}Empirical Strategy}{14}{}%
+\contentsline {subsubsection}{\numberline {1.4.1}Estimating the effect of having a Hispanic last name}{15}{}%
+\contentsline {subsubsection}{\numberline {1.4.2}Estimating the effect of identifying as Hispanic}{15}{}%
+\contentsline {subsection}{\numberline {1.5}Results and Discussion}{16}{}%
+\contentsline {subsubsection}{\numberline {1.5.1}The effect of having a Hispanic last name on labor market outcomes}{17}{}%
+\contentsline {subsubsection}{\numberline {1.5.2}The effect of identifying as Hispanic on labor market outcomes}{18}{}%
+\contentsline {subsubsection}{\numberline {1.5.3}Discussion}{23}{}%
+\contentsline {subsection}{\numberline {1.6}Conclusion}{24}{}%
+\contentsline {section}{\numberline {2}\bf \uppercase {The Effect of Racial and Ethnic Attitudes on Hispanic Identity in the U.S}}{25}{}%
+\contentsline {subsection}{\numberline {2.1}Introduction}{25}{}%
+\contentsline {subsection}{\numberline {2.2}Theoretical Model}{30}{}%
+\contentsline {subsection}{\numberline {2.3}Data}{32}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Measuring Hispanic Identity}{32}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Measuring Prejudice}{41}{}%
+\contentsline {subsection}{\numberline {2.4}Empirical Strategy}{44}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}The Determinants of Hispanic Identity}{44}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Estimating the Relationship Between Bias, Interethnic Marriages, and Migration}{49}{}%
+\contentsline {subsection}{\numberline {2.5}Results and Discussion}{52}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Relationship between Attitudes and Identity}{52}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}The Relationship Between Bias, Interethnic Marriages, and Migration}{64}{}%
+\contentsline {subsection}{\numberline {2.6}Discussion}{68}{}%
+\contentsline {subsection}{\numberline {2.7}Conclusion}{72}{}%
+\contentsline {section}{\numberline {A}Figures}{74}{}%
+\contentsline {section}{\numberline {B}Data}{88}{}%
+\contentsline {section}{\numberline {C}Tables}{89}{}%
