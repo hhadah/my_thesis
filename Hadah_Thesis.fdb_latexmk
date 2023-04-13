@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Hadah_Thesis"] 1681343456 "Hadah_Thesis.aux" "Hadah_Thesis.bbl" "Hadah_Thesis" 1681344044
+["bibtex Hadah_Thesis"] 1681412293 "Hadah_Thesis.aux" "Hadah_Thesis.bbl" "Hadah_Thesis" 1681412306
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "Dissertation.bib" 1680927255 537915 a28ee5acdf6c3db0a3392dd7f02fcbe8 ""
-  "Hadah_Thesis.aux" 1681344043 30506 4be3afc06cbe7ff67b1cf9336fdcbb6e "pdflatex"
+  "Hadah_Thesis.aux" 1681412305 30506 4be3afc06cbe7ff67b1cf9336fdcbb6e "pdflatex"
   (generated)
   "Hadah_Thesis.bbl"
   "Hadah_Thesis.blg"
-["pdflatex"] 1681344030 "Hadah_Thesis.tex" "Hadah_Thesis.pdf" "Hadah_Thesis" 1681344044
+["pdflatex"] 1681412294 "Hadah_Thesis.tex" "Hadah_Thesis.pdf" "Hadah_Thesis" 1681412306
   "/Users/hhadah/Library/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1643922251 2796795 9b37e65f83922863af74fc947fc5804c ""
   "/Users/hhadah/Library/texmf/tex/latex/multicol.sty" 1084240224 25928 526edd03c609ff2cdc4805a41441008e ""
   "/Users/hhadah/Library/texmf/tex/latex/setspace.sty" 1130857036 22518 969fcbccb9feb6c080f52825bb5fe1e1 ""
@@ -185,12 +185,12 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1643922253 4379201 718a59215bccc89d4f89ee72c554b0e8 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "GraphNonWhites.png" 1617744734 55443 82ea786e3374d9aff51af2115960eecf ""
-  "Hadah_Thesis.aux" 1681344043 30506 4be3afc06cbe7ff67b1cf9336fdcbb6e "pdflatex"
-  "Hadah_Thesis.bbl" 1681343456 23843 61b66a1c3c1ce70112df086e4407475e "bibtex Hadah_Thesis"
-  "Hadah_Thesis.lof" 1681344043 3322 b4e03c083dcd6bc2a4f92dfaf80f06ca "pdflatex"
-  "Hadah_Thesis.lot" 1681344043 3104 961d7dda9298a2ade96ea1781635db66 "pdflatex"
-  "Hadah_Thesis.tex" 1681344027 131606 668bc9e82bd3b6b3d4ab0f8e73e2236d ""
-  "Hadah_Thesis.toc" 1681344043 2953 e6095511a9588e0fdc60d3d670f8b959 "pdflatex"
+  "Hadah_Thesis.aux" 1681412305 30506 4be3afc06cbe7ff67b1cf9336fdcbb6e "pdflatex"
+  "Hadah_Thesis.bbl" 1681412294 23843 61b66a1c3c1ce70112df086e4407475e "bibtex Hadah_Thesis"
+  "Hadah_Thesis.lof" 1681412305 3322 b4e03c083dcd6bc2a4f92dfaf80f06ca "pdflatex"
+  "Hadah_Thesis.lot" 1681412305 3104 961d7dda9298a2ade96ea1781635db66 "pdflatex"
+  "Hadah_Thesis.tex" 1681353235 131606 668bc9e82bd3b6b3d4ab0f8e73e2236d ""
+  "Hadah_Thesis.toc" 1681412305 2953 e6095511a9588e0fdc60d3d670f8b959 "pdflatex"
   "HispanicUSA.png" 1617744753 51621 f6be69e4108eec1091b7789a191a0b89 ""
   "PirChart2.png" 1620750998 279447 ccf8e10bc6197fb02bd40302f00e218e ""
   "figure/2004skinmap.png" 1676780385 209148 030377d2cc37ef1586fdf242f6aab347 ""
@@ -252,7 +252,7 @@
   "tables/tab05-regression.tex" 1681343010 1608 2391fd6308a1af29f7f0cd2cd6326977 ""
   "tables/tab06-regression.tex" 1681343006 1794 af55e3974d1cae3f4ea3eff95b49620f ""
   "tables/tab06-regression_tab_byproxy_skin.tex" 1680985260 3577 da922d7e93165e55144eee44d17ec616 ""
-  "tables/tab07-regression.tex" 1681343126 1253 1e271267d89772cd928d3743b5caf1ad ""
+  "tables/tab07-regression.tex" 1681412246 1272 9df5e1b1c9438663cd69af4a2dd5ba3f ""
   "tables/tab40-iat-migration-tab.tex" 1680986376 3287 cd785767c0117c61d3954396e5684e93 ""
   "tables/tab41a-marriage.tex" 1671320514 1535 e977edd63acea8d91895c8934c6b7138 ""
   "tables/tab43-regression_tab_bygen_skin.tex" 1680986539 3212 9ae858b6c76276bb54bd6a4d48db2df0 ""

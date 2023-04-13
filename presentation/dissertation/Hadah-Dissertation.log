@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  12 APR 2023 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  13 APR 2023 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,9 +1162,13 @@ h-Dissertation.toc) [2
 
 ] [11
 
+] [12
+
+] [13
+
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-354.
+421.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1172,35 +1176,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-54.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+21.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-354.
+421.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-354.
+421.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 354.
+(Font)              <10.95> on input line 421.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 354.
+(Font)              <8> on input line 421.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 354.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 354
+(Font)              <6> on input line 421.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 421
 .
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 354
+LaTeX Font Info:    Trying to load font information for U+msb on input line 421
 .
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1208,74 +1212,55 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 354.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 421.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 354.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 421.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 354.
-[12
-
-] [13
-
-]
-<figures/PirChart2.png, id=195, 1437.87187pt x 958.58125pt>
-File: figures/PirChart2.png Graphic file (type png)
-<use figures/PirChart2.png>
-Package pdftex.def Info: figures/PirChart2.png  used on input line 399.
-(pdftex.def)             Requested size: 303.33952pt x 202.22949pt.
-
-Overfull \vbox (1.5139pt too high) detected at line 399
- []
-
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 421.
 [14
 
- <./figures/PirChart2.png>] (./tables/tab02-observations-by-couple.tex) [15
+] [15
 
-] (./tables/tab03ab-summary-stats.tex) [16
+]
+<figures/PirChart2.png, id=210, 1437.87187pt x 958.58125pt>
+File: figures/PirChart2.png Graphic file (type png)
+<use figures/PirChart2.png>
+Package pdftex.def Info: figures/PirChart2.png  used on input line 466.
+(pdftex.def)             Requested size: 303.33952pt x 202.22949pt.
 
-] (./tables/tab03c-summary-stats.tex)
-Overfull \vbox (14.4382pt too high) detected at line 418
+Overfull \vbox (1.5139pt too high) detected at line 466
  []
 
-[17
+[16
 
-] [18
+ <./figures/PirChart2.png>] (./tables/tab02-observations-by-couple.tex) [17
 
-] [19
+] (./tables/tab03ab-summary-stats.tex) [18
 
-] (./tables/tab05-regression.tex)
-Overfull \vbox (9.76791pt too high) detected at line 453
- []
+] (./tables/tab03c-summary-stats.tex) [19
 
-[20
+] [20
 
-] (./tables/tab05a-regression.tex)
-Overfull \vbox (9.76791pt too high) detected at line 458
- []
+] [21
 
-[21
+] (./tables/tab05-regression.tex) [22
 
-] (./tables/tab05b-regression.tex)
-Overfull \vbox (9.76791pt too high) detected at line 463
- []
+] (./tables/tab05a-regression.tex) [23
 
-[22
+] (./tables/tab05b-regression.tex) [24
 
-] [23
+] [25
 
-] [24
+] [26
 
-] (./tables/tab06-regression.tex) [25
+] (./tables/tab06-regression.tex) [27
 
-] (./tables/tab06a-regression.tex) [26
+] (./tables/tab06a-regression.tex) [28
 
-] (./tables/tab06b-regression.tex) [27
+] (./tables/tab06b-regression.tex) [29
 
-] [28
-
-] [29
-
-] [30
+] (./tables/tab05twocol-regression.tex) (./tables/tab07-naive-regression.tex) [
+30
 
 ] [31
 
@@ -1287,39 +1272,30 @@ Overfull \vbox (9.76791pt too high) detected at line 463
 
 ] [35
 
-] (./tables/tab01-SumStat.tex) [36
+] [36
+
+] [37
+
+] (./tables/tab01-SumStat.tex) [38
 
 ]
-<Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf, id=447, 493.845p
+<Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf, id=463, 493.845p
 t x 361.35pt>
 File: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf Graphic file
  (type pdf)
 <use Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf>
 Package pdftex.def Info: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3
--1.pdf  used on input line 655.
+-1.pdf  used on input line 720.
 (pdftex.def)             Requested size: 346.67659pt x 253.66557pt.
 
-Overfull \vbox (52.94998pt too high) detected at line 655
+Overfull \vbox (52.94998pt too high) detected at line 720
  []
 
-[37
+[39
 
- <./Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf>] [38
+ <./Hadah-Dissertation_files/figure-beamer/unnamed-chunk-3-1.pdf>] [40
 
-] (./tables/tab46-Skin-Iat-cps-SumStat.tex) [39
-
-]
-<Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf, id=484, 505.89pt
- x 297.11pt>
-File: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file
- (type pdf)
-<use Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4
--1.pdf  used on input line 691.
-(pdftex.def)             Requested size: 303.33952pt x 178.15402pt.
-[40
-
- <./Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4-1.pdf>] [41
+] [41
 
 ] [42
 
@@ -1328,57 +1304,57 @@ Package pdftex.def Info: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-4
 ] [44
 
 ]
-<figures/skin-iat-regression-all-gens.png, id=562, 3011.25pt x 1204.5pt>
+<figures/skin-iat-regression-all-gens.png, id=553, 3011.25pt x 1204.5pt>
 File: figures/skin-iat-regression-all-gens.png Graphic file (type png)
 <use figures/skin-iat-regression-all-gens.png>
 Package pdftex.def Info: figures/skin-iat-regression-all-gens.png  used on inpu
-t line 781.
+t line 838.
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
-<figures/skin-iat-regression-first-gen.png, id=563, 3011.25pt x 1204.5pt>
+<figures/skin-iat-regression-first-gen.png, id=554, 3011.25pt x 1204.5pt>
 File: figures/skin-iat-regression-first-gen.png Graphic file (type png)
 <use figures/skin-iat-regression-first-gen.png>
 Package pdftex.def Info: figures/skin-iat-regression-first-gen.png  used on inp
-ut line 781.
+ut line 838.
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
-<figures/skin-iat-regression-second-gen.png, id=564, 3011.25pt x 1204.5pt>
+<figures/skin-iat-regression-second-gen.png, id=555, 3011.25pt x 1204.5pt>
 File: figures/skin-iat-regression-second-gen.png Graphic file (type png)
 <use figures/skin-iat-regression-second-gen.png>
 Package pdftex.def Info: figures/skin-iat-regression-second-gen.png  used on in
-put line 781.
+put line 838.
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
-<figures/skin-iat-regression-third-gen.png, id=565, 3011.25pt x 1204.5pt>
+<figures/skin-iat-regression-third-gen.png, id=556, 3011.25pt x 1204.5pt>
 File: figures/skin-iat-regression-third-gen.png Graphic file (type png)
 <use figures/skin-iat-regression-third-gen.png>
 Package pdftex.def Info: figures/skin-iat-regression-third-gen.png  used on inp
-ut line 781.
+ut line 838.
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
 [45
 
  <./figures/skin-iat-regression-all-gens.png> <./figures/skin-iat-regression-fi
 rst-gen.png> <./figures/skin-iat-regression-second-gen.png> <./figures/skin-iat
 -regression-third-gen.png>]
-<figures/by-parents-regs-all.png, id=579, 3011.25pt x 1204.5pt>
+<figures/by-parents-regs-all.png, id=570, 3011.25pt x 1204.5pt>
 File: figures/by-parents-regs-all.png Graphic file (type png)
 <use figures/by-parents-regs-all.png>
-Package pdftex.def Info: figures/by-parents-regs-all.png  used on input line 81
-6.
+Package pdftex.def Info: figures/by-parents-regs-all.png  used on input line 87
+3.
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
-<figures/by-parents-regs-hh.png, id=580, 3011.25pt x 1204.5pt>
+<figures/by-parents-regs-hh.png, id=571, 3011.25pt x 1204.5pt>
 File: figures/by-parents-regs-hh.png Graphic file (type png)
 <use figures/by-parents-regs-hh.png>
-Package pdftex.def Info: figures/by-parents-regs-hh.png  used on input line 816
+Package pdftex.def Info: figures/by-parents-regs-hh.png  used on input line 873
 .
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
-<figures/by-parents-regs-hw.png, id=581, 3011.25pt x 1204.5pt>
+<figures/by-parents-regs-hw.png, id=572, 3011.25pt x 1204.5pt>
 File: figures/by-parents-regs-hw.png Graphic file (type png)
 <use figures/by-parents-regs-hw.png>
-Package pdftex.def Info: figures/by-parents-regs-hw.png  used on input line 816
+Package pdftex.def Info: figures/by-parents-regs-hw.png  used on input line 873
 .
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
-<figures/by-parents-regs-wh.png, id=582, 3011.25pt x 1204.5pt>
+<figures/by-parents-regs-wh.png, id=573, 3011.25pt x 1204.5pt>
 File: figures/by-parents-regs-wh.png Graphic file (type png)
 <use figures/by-parents-regs-wh.png>
-Package pdftex.def Info: figures/by-parents-regs-wh.png  used on input line 816
+Package pdftex.def Info: figures/by-parents-regs-wh.png  used on input line 873
 .
 (pdftex.def)             Requested size: 145.60167pt x 58.22519pt.
 [46
@@ -1386,7 +1362,7 @@ Package pdftex.def Info: figures/by-parents-regs-wh.png  used on input line 816
  <./figures/by-parents-regs-all.png> <./figures/by-parents-regs-hh.png> <./figu
 res/by-parents-regs-hw.png> <./figures/by-parents-regs-wh.png>] (./tables/tab45
 -iat_regression_tab_bygrandparent_type.tex)
-Overfull \vbox (14.80397pt too high) detected at line 823
+Overfull \vbox (0.89482pt too high) detected at line 880
  []
 
 [47
@@ -1395,7 +1371,22 @@ Overfull \vbox (14.80397pt too high) detected at line 823
 
 ] [49
 
-] [50
+] (./tables/tab46-Skin-Iat-cps-SumStat.tex) [50
+
+]
+<Hadah-Dissertation_files/figure-beamer/unnamed-chunk-5-1.pdf, id=636, 505.89pt
+ x 297.11pt>
+File: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-5-1.pdf Graphic file
+ (type pdf)
+<use Hadah-Dissertation_files/figure-beamer/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: Hadah-Dissertation_files/figure-beamer/unnamed-chunk-5
+-1.pdf  used on input line 931.
+(pdftex.def)             Requested size: 303.33952pt x 178.15402pt.
+[51
+
+ <./Hadah-Dissertation_files/figure-beamer/unnamed-chunk-5-1.pdf>] [52
+
+] [53
 
 
 ]
@@ -1410,18 +1401,18 @@ Overfull \vbox (14.80397pt too high) detected at line 823
 
 (./Hadah-Dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 34388 strings out of 478287
- 733590 string characters out of 5846751
- 989707 words of memory out of 5000000
- 51621 multiletter control sequences out of 15000+600000
- 539881 words of font info for 118 fonts, out of 8000000 for 9000
+ 34430 strings out of 478287
+ 734606 string characters out of 5846751
+ 988707 words of memory out of 5000000
+ 51642 multiletter control sequences out of 15000+600000
+ 540083 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,122p,1015b,910s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips
 /lm/lm-mathex.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/
-usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
-ive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2021/texmf
+hsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/
+local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texl
+ive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
 blic/lm/lmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lm
@@ -1432,10 +1423,10 @@ exlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2
 -dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
 blic/lm/lmsy8.pfb>
-Output written on Hadah-Dissertation.pdf (50 pages, 1464410 bytes).
+Output written on Hadah-Dissertation.pdf (53 pages, 1471621 bytes).
 PDF statistics:
- 766 PDF objects out of 1000 (max. 8388607)
- 595 compressed objects within 6 object streams
- 162 named destinations out of 1000 (max. 500000)
- 45530 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 810 PDF objects out of 1000 (max. 8388607)
+ 629 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 45574 words of extra memory for PDF output out of 51595 (max. 10000000)
 

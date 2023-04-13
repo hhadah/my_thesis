@@ -1,0 +1,28 @@
+\begin{table}[!h]
+\centering
+\resizebox{0.65\linewidth}{!}{
+\begin{tabular}[t]{lcc}
+\toprule
+  & \specialcell{(1) \\ Log annual earnings} & \specialcell{(2) \\  Log annual earnings}\\
+\midrule
+$WH_{i}$ & \num{-0.14}*** & \num{-0.09}***\\
+ & (\num{0.03}) & (\num{0.02})\\
+$HW_{i}$ & \num{-0.20}*** & \num{-0.11}***\\
+ & (\num{0.02}) & \vphantom{1} (\num{0.01})\\
+$HH_{i}$ & \num{-0.24}*** & \num{-0.12}***\\
+ & (\num{0.02}) & (\num{0.01})\\
+\midrule
+$HW_{i} - WH_{i}$ & -0.06** & -0.02\\
+ & (0.03) & (0.02)\\
+\midrule
+Observations & \num{129359} & \num{129359}\\
+State FE & X & X\\
+Year FE & X & X\\
+\textit{Controlling for:} &  & \\
+Hours Worked & X & X\\
+Age & X & X\\
+Education &  & X\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}* p $<$ 0.1, ** p $<$ 0.05, *** p $<$ 0.01}\\
+\end{tabular}}
+\end{table}

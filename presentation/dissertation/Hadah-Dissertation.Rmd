@@ -103,23 +103,51 @@ cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2"
   
 ```
 
+### Topics Covered
+
+- I investigate two topics:
+
+  1. Discrimination against Hispanics
+  
+    - Do people with Hispanic lastnames face discrimination in the labor market?
+    
+    - What is the effect of identifying as Hispanic on labor market outcomes?
+
+  2. The determinants of Hispanic identity
+  
+    - How do individual characteristics and social attitudes toward racial and ethnic minorities affect the self-reported identity of Hispanics in the United States?
+    
+### Importance of the Topics
+
+- Hispanics constitute a large and growing portion of the population in the US
+
+\bigskip
+
+- Discrimination could hinder assimilation and mobility
+
+\bigskip
+
+- Identity matters in many economic contexts (Akerlof and Kranton 2000)
+
+\bigskip
+
+- Thus, it is important to understand if person’s ethnicity affects their labor market outcomes and how ethnic identities are chosen and shaped by society
+    
 # The Impact of Hispanic Last Names and Identity on Labor Market Outcomes
 
 ## Introduction
 
 ### Research Questions
 
-- Do Hispanics face discrimination in the labor market?
+1. Do Hispanics face discrimination in the labor market?
 
-1. Does having a Hispanic last name affect a person's labor market outcomes?
+  - Does having a Hispanic last name affect a person's labor market outcomes?
   
-- Audit-studies studied the effect of an ethnic-sounding name on employer discrimination \footnotesize(Bertrand and Mullainathan 2004; Fryer and Levitt 2004)
+  - Audit-studies studied the effect of an ethnic-sounding name on employer discrimination            \footnotesize(Bertrand and Mullainathan 2004; Fryer and Levitt 2004)
   
 2. What is the effect of identifying as Hispanic on labor market outcomes?
 
-- This is another approach I will use to study discrimination using how a person identifies similar to Akerlof and Kranton (2000) model of identity
-
-\hyperlink{label}{\beamerbutton{I jump to the last slide}}
+  - This is another approach I will use to study discrimination using how a person identifies similar to Akerlof and Kranton (2000) model of identity
 
 ### Motivation
  
@@ -239,11 +267,8 @@ Following Rubinstein and Brenner (2014), I construct synthetic parents from the 
 \end{figure}
 \end{center}
 
-<!-- ### Tabulation -->
 
-<!-- \input{tables/tab01-observations-by-parents.tex} -->
-
-### Tabulation
+### Tabulation of Synthetic Parents
 
 \input{tables/tab02-observations-by-couple.tex}
 
@@ -255,13 +280,11 @@ Following Rubinstein and Brenner (2014), I construct synthetic parents from the 
 
 \input{tables/tab03c-summary-stats.tex}
 
-\hypertarget{label}{\beamerbutton{I'm on the last slide}}
-
 ## Empirical Model & Results
 
 ### Effect of Hispanic Last Name
 
-$$Y_{ist} = {\color{red}{\pmb{\beta_{1}}}} HW_{ist} + {\color{red}{\pmb{\beta_{2}}}} WH_{ist} + {\color{red}{\pmb{\beta_{3}}}} HH_{ist} + X_{ist}^{\prime}\pi + \gamma_{t}+ \lambda{s} + \phi_{ist}$$
+$$Y_{ist} = {\color{red}{\pmb{\beta_{1}}}} HW_{ist} + {\color{red}{\pmb{\beta_{2}}}} WH_{ist} + {\color{red}{\pmb{\beta_{3}}}} HH_{ist} + X_{ist}^{\prime}\pi + \gamma_{t}+ \lambda_{s} + \phi_{ist}$$
 
 - $Y_{ist}$ is the log annual earnings for person $i$ at time $t$
 
@@ -296,7 +319,7 @@ $$Y_{ist} = {\color{red}{\pmb{\beta_{1}}}} HW_{ist} + {\color{red}{\pmb{\beta_{2
 \begin{align*}
 Y_{ist} &= \beta_{1} HW_{ist} +  \beta_{2} WH_{ist} + \beta_{3} HH_{ist} +\\
 & {\color{red}{\pmb{\beta_{4}}}} WH_{ist} \cdot Hispanic_{ist} + {\color{red}{\pmb{\beta_{5}}}} HW_{ist}\cdot Hispanic_{ist} +  {\color{red}{\pmb{\beta_{6}}}} HH_{ist} \cdot Hispanic_{ist}+  \\
-&X_{ist}^{\prime}\pi + \gamma_{t} + \lambda{s} + \phi_{ist} 
+&X_{ist}^{\prime}\pi + \gamma_{t} + \lambda_{s} + \phi_{ist} 
 \end{align*}
 
 Restrict the sample to HW and WH 
@@ -326,17 +349,34 @@ Y_{ist} &= \beta_{0} +  \beta_{1} HW_{ist} +  \beta_{2} WH_{ist} + \beta_{3} HH_
 
 - I restrict the analysis to full-time full year and waged and salaried males
 
-### Results
+### Hispanic Last Names and Self-Reported Identity
 
 \input{tables/tab06-regression.tex}
 
-### Results
+### Hispanic Last Names and Self-Reported Identity
 
 \input{tables/tab06a-regression.tex}
 
-### Results
+### Hispanic Last Names and Self-Reported Identity
 
 \input{tables/tab06b-regression.tex}
+
+### Taste Based Discrimination?
+
+\begin{columns}[t]
+  \begin{column}{0.5\textwidth}
+    \centering
+    \input{tables/tab05twocol-regression} 
+  \end{column}
+  \begin{column}{0.5\textwidth}
+    \centering
+    \input{tables/tab07-naive-regression.tex} 
+  \end{column}
+\end{columns}
+
+- Comparing Hispanics to Whites might inflate ethnic gaps
+
+- Comparing WH to HW people could provide an estimate of how much of the Hispanic-White gap due to taste based discrimination
 
 ### Conclusion
 
@@ -349,18 +389,6 @@ Y_{ist} &= \beta_{0} +  \beta_{1} HW_{ist} +  \beta_{2} WH_{ist} + \beta_{3} HH_
 - I do find that men that identify as Hispanic earn significantly less than those that do not even when controlling for ancestry and education
 
 # The Effect of Racial and Ethnic Attitudes on Hispanic Identity in the U.S.
-
-### The Role of Identity
-
-- Identity matters in many economic contexts \footnotesize[@grossmanIdentityPoliticsTrade2021]
-
-- Identity could shift public opinions toward trade \footnotesize[@grossmanIdentityPoliticsTrade2021]
-
-- Racial and gender attitudes affect the racial and gender earnings gaps \footnotesize[@charlesPrejudiceWagesEmpirical2008; @charlesEffectsSexismAmerican2018]
-
-- Person’s identity has personal costs/benefits and social costs/benefits that affect economic outcomes \footnotesize[@akerlofEconomicsIdentity2000]
-
-- Thus, it is important to understand if and how ethnic identities are chosen and shaped by society
 
 ### The Role of Identity
 
@@ -420,7 +448,7 @@ grid.arrange(img1)
 
 -   An implicit association test measures how people associate:
 
-    -   Concepts as in dark-skinned people
+    -   Concepts as in dark-skinned people \hyperlink{IAT-1}{\beamerbutton{Example}}\hypertarget{IAT-main}{\beamerbutton{IAT}}
 
     -   Evaluations as in good, bad, or stereotypes
 
@@ -428,25 +456,8 @@ grid.arrange(img1)
 
 -   IAT was shown to be correlated with economic outcomes, voting behavior, and health \footnotesize[@chettyRaceEconomicOpportunity2020; @gloverDiscriminationSelfFulfillingProphecy2017; @friesePredictingVotingBehavior2007; @leitnerRacialBiasAssociated2016; @alsanDoesDiversityMatter2019]
 
--   I use data from 2004 to 2021
+-   I use data from 2004 to 2021 \hyperlink{IAT-2}{\beamerbutton{Summary Statistics}}
 
-### Summary Statistics of IAT Sample
-
-\input{tables/tab46-Skin-Iat-cps-SumStat.tex}
-
-### Implicit Association Test (IAT): Example
-
-```{r, echo=FALSE, out.width="70%", warning=FALSE, fig.align = 'center'}
-img1 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample1.png"))), interpolate = FALSE)
-img2 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample2.png"))), interpolate = FALSE)
-img3 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample3.png"))), interpolate = FALSE)
-img4 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample4.png"))), interpolate = FALSE)
-img5 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample5.png"))), interpolate = FALSE)
-
-
-grid.arrange(img1, img2, img3, img4, img5, ncol = 3, nrow = 2)
-# knitr::include_graphics(normalizePath(file.path(tables_plots_dir,"patched_plots.png")))
-```
 
 ## Empirical Strategy
 
@@ -573,12 +584,43 @@ grid.arrange(results)
 
 -   A one-unit increase in bias is associated with a:
 
-    -   14 p.p. decrease in the subjective Hispanic identity of first-generation Hispanic immigrants
+    -   Seven p.p. decrease in the subjective Hispanic identity of first-generation Hispanic immigrants
 
-    -   23 p.p. decrease in the subjective Hispanic identity of second-generation Hispanic immigrants
+    -   13 p.p. decrease in the subjective Hispanic identity of second-generation Hispanic immigrants
 
--   A one-unit increase in bias is associated with a:
-
-    -   37 p.p. decrease in the subjective Hispanic identity of the second-generation Hispanic immigrants of Hispanic fathers-Hispanic Mothers
+    -   15 p.p. decrease in the subjective Hispanic identity of the second-generation Hispanic immigrants of Hispanic fathers-Hispanic Mothers
+    -   14 p.p. decrease in the subjective Hispanic identity of the third-generation Hispanic immigrants of Hispanic grandparents
     
+
+# Appendix
+
+### Summary Statistics of IAT Sample \hypertarget{IAT-2}{\beamerbutton{Summary Statistics}}
+
+\begin{columns}[T]
+  \begin{column}{0.9\textwidth}
+    \input{tables/tab46-Skin-Iat-cps-SumStat.tex}
+  \end{column}
+  \begin{column}{0.1\textwidth}
+    \hyperlink{IAT-main}{\beamerbutton{Back}}
+  \end{column}
+\end{columns}
+
+### Implicit Association Test (IAT): Example \hypertarget{IAT-1}{\beamerbutton{Example}}
+
+\hyperlink{IAT-main}{\beamerbutton{Back}}
+
+```{r, echo=FALSE, out.width="70%", warning=FALSE, fig.align = 'center'}
+img1 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample1.png"))), interpolate = FALSE)
+img2 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample2.png"))), interpolate = FALSE)
+img3 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample3.png"))), interpolate = FALSE)
+img4 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample4.png"))), interpolate = FALSE)
+img5 <- rasterGrob(as.raster(readPNG(file.path("/Users/hhadah/Documents/GiT/my_thesis/presentation/dissertation/figures","iatexample5.png"))), interpolate = FALSE)
+
+
+grid.arrange(img1, img2, img3, img4, img5, ncol = 3, nrow = 2)
+# knitr::include_graphics(normalizePath(file.path(tables_plots_dir,"patched_plots.png")))
+```
+
+
 ### References {.allowframebreaks}
+

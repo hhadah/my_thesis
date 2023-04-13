@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  12 APR 2023 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.3)  13 APR 2023 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,7 +973,7 @@ Overfull \vbox (63.42683pt too high) has occurred while \output is active []
 
 
 [21] (./tables/tab07-regression.tex)
-Overfull \vbox (48.25146pt too high) has occurred while \output is active []
+Overfull \vbox (83.1618pt too high) has occurred while \output is active []
 
 
 [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
@@ -1398,7 +1398,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Hadah_Thesis.pdf (112 pages, 6736528 bytes).
+Output written on Hadah_Thesis.pdf (112 pages, 6736530 bytes).
 PDF statistics:
  555 PDF objects out of 1000 (max. 8388607)
  311 compressed objects within 4 object streams
